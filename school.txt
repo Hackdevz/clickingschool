@@ -69,14 +69,17 @@ Buildings
 Upgrades
 	*prestige
 		name: ASCEND
-		desc:You will destroy: <//>-<b>All your books</b><//>-<b>All your points and dollars</b><//>And you will get [(pow(points, (1/3)/1e12)] heavenly points. You can use the heavenly points on upgrades.<//> You need 1 trillion normal points to get your first heavenly point.
+		desc:You will destroy: <//>-<b>All your books</b><//>-<b>All your points and dollars</b><//>And you will get [(pow(points, (1/3))/1e12)] heavenly points. You can use the heavenly points on upgrades.<//> You need 1 trillion normal points to get your first heavenly point.
 		passive:grant (pow(points, (1/3))/1e12) prestigePoints
 		on earn:
 			lose points
 			lose money
 			lose english
+			lose prestige
 		end
 		icon:icon:http://icons.iconarchive.com/icons/blackblurrr/xmas-new-year-2011/128/angel-icon.png
 		text:<b>ASCEND</b>
+		
+	
 		
 
