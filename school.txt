@@ -1,21 +1,21 @@
 Let's make a game!
-name:Clicking School
-by:The Clicking School Team, with some help from Regian
-desc:Study and become better! Get upgrades and power up your books! Conquest empires and become the King Of The World!<//><i>More info</i><.>Created on <b>13/01/2018</b><.>Last updated on <b>13/01/2018</b><.>Version 0.90 Beta</b>.
+	name:Clicking School
+		by:The Clicking School Team, with some help from Regian
+			desc:Study and become better! Get upgrades and power up your books! Conquest empires and become the King Of The World!<//><i>More info</i><.>Created on <b>13/01/2018</b><.>Last updated on <b>13/01/2018</b><.>Version 0.90 Beta</b>.
 
  
 
  
 Settings
 	spritesheet:cookie, 48 by 48, orteil.dashnet.org/cookieclicker
-    building cost refund: 60%
-    stylesheet:https://pastebin.com/raw/ATQMMk3t
+    	building cost refund: 60%
+    	stylesheet:https://pastebin.com/raw/ATQMMk3t
 
  
 Buttons
-   *click  
-    	name:Study
-    	desc:Click this button to study.
+   	*click  
+    		name:Study
+    		desc:Click this button to study.
    
 Resources
 	*money
@@ -25,6 +25,7 @@ Resources
 		hidden
 	*min
 		text: (Min/60):(Min%60):(Sec%60)
+		icon:http://icons.iconarchive.com/icons/blog-perfume/blogging/48/date-icon.png
 	
 	*points
 		name:Study Points
@@ -35,3 +36,16 @@ Resources
 		name:Heavenly Points
 		desc:You can grade up in your heavenly school with them!
 		hidden when 0
+
+Buildings
+	*english
+		name:English Book
+		text:English Book ([this] pages done)
+		desc:With this you can learn grammar and read! Produces <b> 1 point and 1 $</b> per second
+		cost increase:103%
+		on tick:yield 1 points
+		on tick:yield 1 money
+		icon:https://i.imgur.com/kElYg6U.png
+		cost:15 money
+		
+
