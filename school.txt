@@ -21,9 +21,9 @@ Resources
 	*money
 		name:$$
 		desc:Dollars!
-	*sec
+	*Sec
 		hidden
-	*min
+	*Min
 		text: (Min/60):(Min%60):(Sec%60)
 		icon:http://icons.iconarchive.com/icons/blog-perfume/blogging/48/date-icon.png
 	
