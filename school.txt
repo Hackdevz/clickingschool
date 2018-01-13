@@ -72,5 +72,6 @@ Upgrades
 			lose points
 			lose money
 			lose english
+		end
 		
 
