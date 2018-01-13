@@ -16,16 +16,19 @@ Buttons
    	*click  
     		name:Study
     		desc:Click this button to study.
+		on click:yield 1 points
+		on click:yield 1 money
    
 Resources
 	*money
-		name:$$
+		name:$
 		desc:Dollars!
 	*Sec
 		hidden
 	*Min
-		text: (Min/60):(Min%60):(Sec%60)
+		text: [Min/60]:[Min%60]:[Sec%60]
 		icon:http://icons.iconarchive.com/icons/blog-perfume/blogging/48/date-icon.png
+		desc:How many time has passed. (Icon by Blog Perfume)
 	
 	*points
 		name:Study Points
