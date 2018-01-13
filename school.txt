@@ -10,7 +10,7 @@ Settings
 	spritesheet:cookie, 48 by 48, orteil.dashnet.org/cookieclicker
     	building cost refund: 60%
     	stylesheet:https://pastebin.com/raw/ATQMMk3t
-
+	background:https://imgur.com/WiEBMAQ
  
 Buttons
    	*click  
