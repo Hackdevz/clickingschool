@@ -57,7 +57,8 @@ Buildings
 		on tick:yield 1 Sec
 		on tick:yield (1/60) Min
 		always hidden
-	
+		start with:1
+		
 	*english
 		name:English Book
 		text:English Book ([this] pages done)
