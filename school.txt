@@ -79,9 +79,9 @@ Buildings
 		icon:https://i.imgur.com/1T3JadU.png
 		cost:75 money
 		
-	*history
-		name:History Book
-		text:History Book ([this] pages done)
+	*math
+		name:Math Book
+		text:Math Book ([this] pages done)
 		desc:1+1 = 2 ... 57 x 4 = 228... Produces <b> 2x2 points and 2x2 $</b> per second
 		cost increase:103%
 		on tick:yield 4 points
@@ -100,7 +100,7 @@ Upgrades
 			lose money
 			lose english
 			lose history
-			lose maths
+			lose math
 			lose prestige
 			
 		end
@@ -113,6 +113,24 @@ Upgrades
 		desc:A rare, payware software. When you click, you'll get [points:ps/100] more points!
 		passive:increase yield of click by (points:ps/100)
 		icon:cookie[0,0]
+		cost:500 money
+		req:50 money
+		
+	*clickII
+		name:Auto-studying redberry thing
+		desc:A rare redberry. When you click, you'll get [points:ps/100] more points!
+		passive:increase yield of click by (points:ps/100)
+		icon:cookie[0,1]
+		cost:50000 money
+		req:5000 money
+		
+	*clickIII
+		name:Auto-studying mineral
+		desc:A blue, dammitly dammit mineral. When you click, you'll get [points:ps/100] more points!
+		passive:increase yield of click by (points:ps/100)
+		icon:cookie[0,2]
+		cost:5000000 money
+		req:500000 money
 		
 	
 		
