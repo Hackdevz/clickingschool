@@ -61,22 +61,33 @@ Buildings
 	*english
 		name:English Book
 		text:English Book ([this] pages done)
-		desc:With this you can learn grammar and read! Produces <b> 1 point and 1 $</b> per second
+		desc:With this you can learn grammar and read! Produces <b> 1 point and 1 $</b> every 10 seconds
 		cost increase:103%
-		on tick:yield 1 points
-		on tick:yield 1 money
+		on tick:yield 0.1 points
+		on tick:yield 0.1 money
 		icon:https://i.imgur.com/kElYg6U.png
 		cost:15 money
 		
 	*history
 		name:History Book
 		text:History Book ([this] pages done)
-		desc:With this you can learn about dead people! Produces <b> 6 point and 6 $</b> per second
+		desc:With this you can learn about dead people! Produces <b> 6 point and 6 $</b> every 10 seconds
 		cost increase:103%
-		on tick:yield 6 points
-		on tick:yield 6 money
+		on tick:yield 0.6 points
+		on tick:yield 0.6 money
 		icon:https://i.imgur.com/1T3JadU.png
 		cost:75 money
+		
+	*history
+		name:History Book
+		text:History Book ([this] pages done)
+		desc:1+1 = 2 ... 57 x 4 = 228... Produces <b> 2x2 points and 2x2 $</b> per second
+		cost increase:103%
+		on tick:yield 4 points
+		on tick:yield 4 money
+		icon:https://i.imgur.com/Qwuhfc9.png
+		cost:500 money	
+
 		
 Upgrades
 	*prestige
@@ -87,10 +98,20 @@ Upgrades
 			lose points
 			lose money
 			lose english
+			lose history
+			lose maths
 			lose prestige
+			
 		end
-		icon:icon:http://icons.iconarchive.com/icons/blackblurrr/xmas-new-year-2011/128/angel-icon.png
+		icon:http://icons.iconarchive.com/icons/blackblurrr/xmas-new-year-2011/128/angel-icon.png
 		
+		
+		
+	*clickI
+		name:Auto-studying software
+		desc:A rare, payware software. When you click, you'll get [points:ps/100] more points!
+		passive:increase yield of click by (points:ps/100)
+		icon:cookie[0,0]
 		
 	
 		
