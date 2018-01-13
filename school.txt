@@ -20,6 +20,18 @@ Buttons
 		on click:yield 1 money
    
 Resources
+	*points
+		name:Study Points
+		desc:You can grade up with'em!
+		start with:1
+		icon:http://icons.iconarchive.com/icons/cheezen/web-2/48/star-icon.png
+		
+		
+	*prestigePoints
+		name:Heavenly Points
+		desc:You can grade up in your heavenly school with them!
+		hidden when 0
+		icon:http://icons.iconarchive.com/icons/blackblurrr/xmas-new-year-2011/128/angel-icon.png
 	*money
 		name:$
 		desc:Dollars!
@@ -30,21 +42,19 @@ Resources
 	*Min
 		text: [Min/60]:[Min%60]:[Sec%60]
 		icon:http://icons.iconarchive.com/icons/blog-perfume/blogging/48/date-icon.png
-		desc:How many time has passed. (Icon by Blog Perfume)
-	
-	*points
-		name:Study Points
-		desc:You can grade up with'em!
-		start with:1
-		icon:http://icons.iconarchive.com/icons/cheezen/web-2/48/star-icon.png
+		no tooltip
 		
-	*prestigePoints
-		name:Heavenly Points
-		desc:You can grade up in your heavenly school with them!
-		hidden when 0
-		icon:http://icons.iconarchive.com/icons/blackblurrr/xmas-new-year-2011/128/angel-icon.png
+	*Grade
+		text:You are in [this]th grade
+		
+
 
 Buildings
+	*test
+		on tick:yield 1 Sec
+		on tick:yield (1/60) Min
+		always hidden
+	
 	*english
 		name:English Book
 		text:English Book ([this] pages done)
@@ -54,5 +64,13 @@ Buildings
 		on tick:yield 1 money
 		icon:https://i.imgur.com/kElYg6U.png
 		cost:15 money
+		
+Upgrades
+	*prestige
+		passive:grant (1e6/money)/
+		on earn:
+			lose points
+			lose money
+			lose english
 		
 
