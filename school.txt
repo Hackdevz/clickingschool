@@ -1,0 +1,20 @@
+Let's make a game!
+name:Peanut Butter Cupper
+by:morkysherk
+desc:Make some tasty peanut butter cups!<//><i>More info</i><.>Created on <b>December 2nd, 2017</b><.>Last updated on <b>January 3rd, 2018</b><.>Update <b>5</b>, mini update <b>1</b>.
+forum post:16768
+ 
+
+ 
+Settings
+   spritesheet:cookie, 48 by 48, orteil.dashnet.org/cookieclicker
+    building cost refund: 60%
+    stylesheet:https://pastebin.com/raw/ATQMMk3t
+
+ 
+Buttons
+    *click  
+    name:Study
+    desc:Click this button to study.
+   
+  Resources
