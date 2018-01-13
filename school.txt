@@ -10,7 +10,7 @@ Settings
 	spritesheet:cookie, 48 by 48, orteil.dashnet.org/cookieclicker
     	building cost refund: 60%
     	stylesheet:https://pastebin.com/raw/ATQMMk3t
-	background:https://imgur.com/WiEBMAQ
+	background:https://i.imgur.com/SI90ndK.jpg
  
 Buttons
    	*click  
@@ -18,6 +18,8 @@ Buttons
     		desc:Click this button to study.
 		on click:yield 1 points
 		on click:yield 1 money
+		class:bigButton hasFlares
+		icon:https://openclipart.org/image/300px/svg_to_png/175644/hefte.png
    
 Resources
 	*points
@@ -66,6 +68,16 @@ Buildings
 		icon:https://i.imgur.com/kElYg6U.png
 		cost:15 money
 		
+	*history
+		name:History Book
+		text:History Book ([this] pages done)
+		desc:With this you can learn about dead people! Produces <b> 6 point and 6 $</b> per second
+		cost increase:103%
+		on tick:yield 6 points
+		on tick:yield 6 money
+		icon:https://i.imgur.com/1T3JadU.png
+		cost:75 money
+		
 Upgrades
 	*prestige
 		name: ASCEND
@@ -78,7 +90,7 @@ Upgrades
 			lose prestige
 		end
 		icon:icon:http://icons.iconarchive.com/icons/blackblurrr/xmas-new-year-2011/128/angel-icon.png
-		text:<b>ASCEND</b>
+		
 		
 	
 		
