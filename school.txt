@@ -23,6 +23,8 @@ Resources
 	*money
 		name:$
 		desc:Dollars!
+		text:[this]
+		icon:http://icons.iconarchive.com/icons/webiconset/payment/48/Gold-Coin-Stacks-icon.png
 	*Sec
 		hidden
 	*Min
@@ -34,11 +36,13 @@ Resources
 		name:Study Points
 		desc:You can grade up with'em!
 		start with:1
+		icon:http://icons.iconarchive.com/icons/cheezen/web-2/48/star-icon.png
 		
 	*prestigePoints
 		name:Heavenly Points
 		desc:You can grade up in your heavenly school with them!
 		hidden when 0
+		icon:http://icons.iconarchive.com/icons/blackblurrr/xmas-new-year-2011/128/angel-icon.png
 
 Buildings
 	*english
