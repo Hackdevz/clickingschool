@@ -1,20 +1,37 @@
 Let's make a game!
-name:Peanut Butter Cupper
-by:morkysherk
-desc:Make some tasty peanut butter cups!<//><i>More info</i><.>Created on <b>December 2nd, 2017</b><.>Last updated on <b>January 3rd, 2018</b><.>Update <b>5</b>, mini update <b>1</b>.
-forum post:16768
+name:Clicking School
+by:The Clicking School Team, with some help from Regian
+desc:Study and become better! Get upgrades and power up your books! Conquest empires and become the King Of The World!<//><i>More info</i><.>Created on <b>13/01/2018</b><.>Last updated on <b>13/01/2018</b><.>Version 0.90 Beta</b>.
+
  
 
  
 Settings
-   spritesheet:cookie, 48 by 48, orteil.dashnet.org/cookieclicker
+	spritesheet:cookie, 48 by 48, orteil.dashnet.org/cookieclicker
     building cost refund: 60%
     stylesheet:https://pastebin.com/raw/ATQMMk3t
 
  
 Buttons
-    *click  
-    name:Study
-    desc:Click this button to study.
+   *click  
+    	name:Study
+    	desc:Click this button to study.
    
-  Resources
+Resources
+	*money
+		name:$$
+		desc:Dollars!
+	*sec
+		hidden
+	*min
+		text: (Min/60):(Min%60):(Sec%60)
+	
+	*points
+		name:Study Points
+		desc:You can grade up with'em!
+		start with:1
+		
+	*prestigePoints
+		name:Heavenly Points
+		desc:You can grade up in your heavenly school with them!
+		hidden when 0
