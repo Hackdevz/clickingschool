@@ -145,7 +145,7 @@ Upgrades
 		
 	*Grade3
 		name: Grade Up
-		desc: You have collected <b>3000000</b> points. Grade up to 3rd grade.
+		desc: You have collected <b>3 million</b> points. Grade up to 3rd grade.
 		passive:grant 1 grade
 		cost:3000000 money
 		req:3000000 points
@@ -154,7 +154,7 @@ Upgrades
 		
 	*Grade4
 		name: Grade Up
-		desc: You have collected <b>300000000</b> points. Grade up to 4th grade.
+		desc: You have collected <b>300 million</b> points. Grade up to 4th grade.
 		passive:grant 1 grade
 		cost:300000000 money
 		req:300000000 points
@@ -162,7 +162,7 @@ Upgrades
 		icon:https://b.thumbs.redditmedia.com/vaSqlSu7Zzd6OdjaoFzw_Mlu-uMso8ZwY-Zm_GIXj3U.png
 	*Grade5
 		name: Grade Up
-		desc: You have collected <b>30000000000</b> points. Grade up to 5th grade.
+		desc: You have collected <b>30 billion</b> points. Grade up to 5th grade.
 		passive:grant 1 grade
 		cost:30000000000 money
 		req:30000000000 points
@@ -171,13 +171,79 @@ Upgrades
 		
 	*Grade6
 		name: START MIDDLE SCHOOL
-		desc: You have collected <b>3000000000000</b> points. START THE MIDDLE SCHOOL and grade up to 6th grade.
+		desc: You have collected <b>3 trillion</b> points. START THE MIDDLE SCHOOL and grade up to 6th grade.
 		passive:grant 1 grade
 		cost:3000000000000 money
 		req:3000000000000 points
 		text: #6
 		icon:https://b.thumbs.redditmedia.com/wd0JAjzg9vMUspYJr1xcQFz3FQbhGbbF4b-XQjzBBJk.png
 		
+	*Grade7
+		name:Grade Up
+		desc: You have collected <b>300 trillion</b> points. Grade up to 7th grade.
+		passive:grant 1 grade
+		cost:300000000000000 money
+		req:300000000000000 points
+		text: #7
+		icon:https://a.thumbs.redditmedia.com/hfPBw2Z3cGTOkCu8OLy-d6CA31PNYByy0BFZyQ0g0T0.png
+		
+	*Grade8
+		name:Grade Up
+		desc: You have collected <b>30 quadrillion</b> points. Grade up to 8th grade.
+		passive:grant 1 grade
+		cost:30000000000000000 money
+		req:30000000000000000 points
+		text: #8
+		icon:https://b.thumbs.redditmedia.com/6RY-gxnu6IxSNFec7PF6Bg_FOW0oAmvDH0UOmKBDtYw.png
+		
+	*Grade9
+		name: START HIGH SCHOOL
+		desc: You have collected <b>3 quintillion</b> points. START HIGH SCHOOL and grade up to 9th grade.
+		passive:grant 1 grade
+		cost:3000000000000000000 money
+		req:3000000000000000000 points
+		text: #9
+		icon:https://b.thumbs.redditmedia.com/c6CD7Z_g6xcuj3y0NG0MuZpo4L5JD6WVTtamywPl31A.png
+		
+	*Grade10
+		name:Grade Up
+		desc: You have collected <b>300 quintillion</b> points. Grade up to 10th grade.
+		passive:grant 1 grade
+		cost:300000000000000000000 money
+		req:300000000000000000000 points
+		text: #10
+		icon:https://b.thumbs.redditmedia.com/Xm4OdOKCx6pzrzGkrbA-PkdpXYqFlgOz9PLGUoHHwJw.png
+		
+	*Grade11
+		name:Grade Up
+		desc: You have collected <b>30 sextillion</b> points. Grade up to 11th grade.
+		passive:grant 1 grade
+		cost:30000000000000000000000 money
+		req:30000000000000000000000 points
+		text: #11
+		icon:https://b.thumbs.redditmedia.com/Fs_ffogXf-hDBdUycJ4YFB303Qoyb2YNqRfvDVnE5Jo.png
+		
+	*Grade12
+		name:Grade Up
+		desc: You have collected <b>3 septillion</b> points. Grade up to 12th grade.
+		passive:grant 1 grade
+		cost:3000000000000000000000000 money
+		req:3000000000000000000000000 points
+		text: #12
+		icon:https://b.thumbs.redditmedia.com/2_8AvX3qP6raDgr3_lbw3Q_RyxcNYVrk9H9ZR8zCCrQ.png
+		
+	*Grade13
+		name:Grade Up
+		desc: You have collected <b>300 septillion</b> points. Grade up to 13th grade and prepare to the final boss fight (diploma)
+		passive:grant 1 grade
+		cost:300000000000000000000000000 money
+		req:300000000000000000000000000 points
+		text: #13
+		icon:https://b.thumbs.redditmedia.com/2_8AvX3qP6raDgr3_lbw3Q_RyxcNYVrk9H9ZR8zCCrQ.png
+		
+	
+		
+	
 		
 	*clickI
 		name:Auto-studying software
