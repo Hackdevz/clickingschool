@@ -7,7 +7,7 @@ Let's make a game!
 
  
 Settings
-	spritesheet:cookie, 48 by 48, orteil.dashnet.org/cookieclicker
+	spritesheet:cookie, 48 by 48, orteil.dashnet.org/cookieclicker/img/icons.png
     	building cost refund: 60%
     	stylesheet:https://pastebin.com/raw/ATQMMk3t
 	background:https://i.imgur.com/SI90ndK.jpg
@@ -33,7 +33,7 @@ Resources
 		name:Heavenly Points
 		desc:You can grade up in your heavenly school with them!
 		hidden when 0
-		icon:http://icons.iconarchive.com/icons/blackblurrr/xmas-new-year-2011/128/angel-icon.png
+		icon:http://icons.iconarchive.com/icons/blackblurrr/xmas-new-year-2011/48/angel-icon.png
 	*money
 		name:$
 		desc:Dollars!
@@ -104,14 +104,13 @@ Upgrades
 			lose prestige
 			
 		end
-		icon:http://icons.iconarchive.com/icons/blackblurrr/xmas-new-year-2011/128/angel-icon.png
-		
+		icon:http://icons.iconarchive.com/icons/blackblurrr/xmas-new-year-2011/48/angel-icon.png
 		
 		
 	*clickI
 		name:Auto-studying software
-		desc:A rare, payware software. When you click, you'll get [points:ps/100] more points!
-		passive:increase yield of click by (points:ps/100)
+		desc:A rare, payware software. When you click, you'll get [english+math] more points!
+		passive:increase yield of click by (english+math)
 		icon:cookie[0,0]
 		cost:500 money
 		req:50 money
