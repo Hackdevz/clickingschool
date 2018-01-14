@@ -96,7 +96,27 @@ Buildings
 		on tick:yield 4 money
 		icon:https://i.imgur.com/Qwuhfc9.png
 		cost:500 money	
-
+		
+	*geography
+		name:Geography Book
+		text:Geography Book ([this] pages done)
+		desc:Earth is flat and New York is in China. Produces <b>14 points and 14 $</b> per second
+		cost increase:103%
+		on tick:yield 14 points
+		on tick:yield 14 money
+		icon:https://i.imgur.com/K6aIYQ5.png
+		cost:1500 money
+		
+	*science
+		name:Science Book
+		text:Science Book ([this] pages done)
+		desc:Discovery! Nature! DNA! Secret things!. Produces <b>70 points and 70 $</b> per second
+		cost increase:103%
+		on tick:yield 70 points
+		on tick:yield 70 money
+		icon:https://i.imgur.com/TvJMKHE.png
+		cost:7200 money
+		req:2 grade
 		
 Upgrades
 	*prestige
@@ -121,6 +141,7 @@ Upgrades
 		cost:30000 money
 		req:30000 points
 		text: #2
+		icon:https://b.thumbs.redditmedia.com/7E0VxlZQt28cvFq2cJrwt_o53oTyQCCGYljwl4taj9k.png
 		
 	*Grade3
 		name: Grade Up
@@ -201,6 +222,13 @@ Upgrades
 		passive:increase yield of click by (1000*history)
 		cost:500000000 money
 		req:4 grade
+		
+	*clickVII
+		name:Complicated math books
+		desc:Comes with [random(10000,1999999)] impossible theorems. When you click, you'll get [1500*math] more points!
+		passive:increase yield of click by (1500*math)
+		cost:50000000000 money
+		req:5 grade
 		
 	
 		
