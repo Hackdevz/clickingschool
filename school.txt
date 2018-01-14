@@ -290,6 +290,7 @@ Upgrades
 		desc:A book from the Industrial Revolution. When you click, you'll get [1000*history] more points!
 		passive:increase yield of click by (1000*history)
 		cost:500000000 money
+		icon:cookie[0,15]
 		req:4 grade
 		
 	*clickVII
@@ -297,6 +298,7 @@ Upgrades
 		desc:Comes with [random(10000,1999999)] impossible theorems, including the "changing number theorem." When you click, you'll get [1500*math] more points!
 		passive:increase yield of click by (1500*math)
 		cost:50000000000 money
+		icon:cookie[0,16]
 		req:5 grade
 		
 	*englishI
@@ -370,7 +372,7 @@ Upgrades
 		passive:increase yield of history by (history)
 		cost:750 money
 		req:1 grade
-		icon:cookie[9,0]
+		icon:cookie[8,0]
 	
 	
 	*historyI
@@ -379,7 +381,7 @@ Upgrades
 		passive:increase yield of history by (history)
 		cost:750 money
 		req:time
-		icon:cookie[9,0]
+		icon:cookie[8,0]
 		
 	*historyII
 		name:Egypt discovered!
@@ -388,7 +390,7 @@ Upgrades
 		cost:75000 money
 		req:2 grade
 		req:time
-		icon:cookie[9,1]
+		icon:cookie[8,1]
 		
 	*historyIII
 		name:Greek Age discovered!
@@ -396,7 +398,7 @@ Upgrades
 		passive:increase yield of history by (history*2)
 		cost:7500000 money
 		req:3 grade
-		icon:cookie[9,2]
+		icon:cookie[8,2]
 		req:time
 		
 	*historyIV
@@ -406,7 +408,7 @@ Upgrades
 		cost:750000000 money
 		req:4 grade
 		req:time
-		icon:cookie[9,13]
+		icon:cookie[8,13]
 		
 		
 	*historyV
@@ -416,7 +418,7 @@ Upgrades
 		cost:75000000000 money
 		req:5 grade
 		req:time
-		icon:cookie[9,14]
+		icon:cookie[8,14]
 		
 		
 	*historyVI
@@ -426,5 +428,5 @@ Upgrades
 		cost:7500000000000 money
 		req:6 grade
 		req:time
-		icon:cookie[9,15]
+		icon:cookie[8,15]
 
