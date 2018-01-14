@@ -271,7 +271,7 @@ Upgrades
 		
 	*clickIV
 		name:Gold books
-		desc:A rare egyptian book, containing the [random(10,1000)] laws of study. When you click, you'll get [history] more points!
+		desc:A rare egyptian book, containing the 282 laws of study. When you click, you'll get [history] more points!
 		passive:increase yield of click by (history)
 		icon:cookie[0,13]
 		cost:50000 money
@@ -279,7 +279,7 @@ Upgrades
 		
 	*clickV
 		name:Old books
-		desc:A book from the Middle Ages. Dates back to [random(1200,1400)]. When you click, you'll get [history*2] more points!
+		desc:A book from the Middle Ages. Dates back to 1337. When you click, you'll get [history*2] more points!
 		passive:increase yield of click by (history*2)
 		icon:cookie[0,14]
 		cost:5000000 money
@@ -294,14 +294,14 @@ Upgrades
 		
 	*clickVII
 		name:Complicated math books
-		desc:Comes with [random(10000,1999999)] impossible theorems. When you click, you'll get [1500*math] more points!
+		desc:Comes with [random(10000,1999999)] impossible theorems, including the "changing number theorem." When you click, you'll get [1500*math] more points!
 		passive:increase yield of click by (1500*math)
 		cost:50000000000 money
 		req:5 grade
 		
 	*englishI
 		name:Small book
-		desc:A [random(50,200)] page book. Will give you [english*2] more points per second!
+		desc:A 60 page book. Will give you [english*2] more points per second!
 		passive:multiply yield of english by 2
 		cost:150 money
 		req:1 grade
@@ -309,7 +309,7 @@ Upgrades
 		
 	*englishII
 		name:Book
-		desc:A [random(200,400)] page book. Will give you [english*2] more points per second!
+		desc:A 233 page book. Will give you [english*2] more points per second!
 		passive:multiply yield of english by 2
 		cost:15000 money
 		req:2 grade
@@ -317,7 +317,7 @@ Upgrades
 		
 	*englishIII
 		name:Larger books
-		desc:A [random(400,600)] page book. Will give you [english*2] more points per second!
+		desc:A 447 page book. Will give you [english*2] more points per second!
 		passive:multiply yield of english by 2
 		cost:1500000 money
 		req:3 grade
@@ -325,7 +325,7 @@ Upgrades
 		
 	*englishIV
 		name:Booker books
-		desc:A [random(600,900)] page book. Will give you [english*2] more points per second!
+		desc:A 696 page book. Will give you [english*2] more points per second!
 		passive:multiply yield of english by 2
 		cost:150000000 money
 		req:4 grade
@@ -353,3 +353,78 @@ Upgrades
 		cost:150000000000000 money
 		req:7 grade
 		icon:http://icons.iconarchive.com/icons/itzikgur/my-seven/48/Books-2-icon.png
+		
+	*englishVIII
+		name:Heavenly library
+		desc:Literally from God. Will give you [120*math+7] more points per second!
+		passive:increase yield of english by (120*math+7)
+		cost:2 prestigeMoney
+		req:8 grade
+		icon:http://icons.iconarchive.com/icons/itzikgur/my-seven/48/Books-2-icon.png
+
+
+	// History book upgrades, boi
+	*time
+		name:TIME MACHINE
+		desc:Allows you to travel time!
+		passive:increase yield of history by (history)
+		cost:750 money
+		req:1 grade
+		icon:cookie[9,0]
+	
+	
+	*historyI
+		name:Stone age discovered!
+		desc:4500 BC done. Will give you [history] more points per second!
+		passive:increase yield of history by (history)
+		cost:750 money
+		req:time
+		icon:cookie[9,0]
+		
+	*historyII
+		name:Egypt discovered!
+		desc:2500 BC done. Pyramids done. Sand done. Pharaoh done. Dat thing done. Sphynx done.Will give you [history*1.5] more points per second!
+		passive:increase yield of history by (history*1.5)
+		cost:75000 money
+		req:2 grade
+		req:time
+		icon:cookie[9,1]
+		
+	*historyIII
+		name:Greek Age discovered!
+		desc:700 BC done. Temple done. Gods done. Ancients done. This is when runics are created .Will give you [history*2] more points per second!
+		passive:increase yield of history by (history*2)
+		cost:7500000 money
+		req:3 grade
+		icon:cookie[9,2]
+		req:time
+		
+	*historyIV
+		name:Roman Empire discovered!
+		desc:200 BC done. Temple done. Pantheon done. Claudius done. Latin poets done .Will give you [history*3] more points per second!
+		passive:increase yield of history by (history*3)
+		cost:750000000 money
+		req:4 grade
+		req:time
+		icon:cookie[9,13]
+		
+		
+	*historyV
+		name:Christ discovered!
+		desc:Congrats! .Will give you [history*3] more points per second!
+		passive:increase yield of history by (history*3)
+		cost:75000000000 money
+		req:5 grade
+		req:time
+		icon:cookie[9,14]
+		
+		
+	*historyVI
+		name:Middle Age  discovered!
+		desc:Knights. Kings. Clash Royale. Oh no that thing no, it's horrible. Will give you [history*5] more points per second!
+		passive:increase yield of history by (history*5)
+		cost:7500000000000 money
+		req:6 grade
+		req:time
+		icon:cookie[9,15]
+
