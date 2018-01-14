@@ -7,7 +7,7 @@ Let's make a game!
 
  
 Settings
-	custom spritesheet: cookie, 48 by 48, orteil.dashnet.org/cookieclicker/img/icons.png
+	custom spritesheet:cookie, 48 by 48, http://orteil.dashnet.org/cookieclicker/img/icons.png
     	building cost refund: 60%
     	stylesheet:https://pastebin.com/raw/ATQMMk3t
 	background:https://i.imgur.com/SI90ndK.jpg
