@@ -150,6 +150,7 @@ Upgrades
 		cost:3000000 money
 		req:3000000 points
 		text: #3
+		icon:https://b.thumbs.redditmedia.com/i_QL-nvbVB7Y7QF41efdkw29QYBsQgYkYkCAwTKKHyo.png
 		
 	*Grade4
 		name: Grade Up
@@ -158,7 +159,7 @@ Upgrades
 		cost:300000000 money
 		req:300000000 points
 		text: #4
-		
+		icon:https://b.thumbs.redditmedia.com/vaSqlSu7Zzd6OdjaoFzw_Mlu-uMso8ZwY-Zm_GIXj3U.png
 	*Grade5
 		name: Grade Up
 		desc: You have collected <b>30000000000</b> points. Grade up to 5th grade.
@@ -166,6 +167,7 @@ Upgrades
 		cost:30000000000 money
 		req:30000000000 points
 		text: #5
+		icon:https://a.thumbs.redditmedia.com/PAM8CWBOSHuqlGx6T2cqLFxnKHPOEI-FlKD2jw6d_l0.png
 		
 	*Grade6
 		name: START MIDDLE SCHOOL
@@ -174,6 +176,7 @@ Upgrades
 		cost:3000000000000 money
 		req:3000000000000 points
 		text: #6
+		icon:https://b.thumbs.redditmedia.com/wd0JAjzg9vMUspYJr1xcQFz3FQbhGbbF4b-XQjzBBJk.png
 		
 		
 	*clickI
