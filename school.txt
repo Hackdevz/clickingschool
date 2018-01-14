@@ -52,12 +52,11 @@ Resources
 		hidden when 0
 		icon:http://icons.iconarchive.com/icons/blackblurrr/xmas-new-year-2011/48/angel-icon.png
 		
-	
-*prestigePoints
-		name:Heavenly Points
-		desc:You can grade up in your heavenly school with them!
+	*prestigeMoney
+		name:Scrolls of Heaven
+		desc:Rare, magic scrolls. You can use them on heavenly upgrades and runic equipment. Icon by http://awicons.com
 		hidden when 0
-		icon:http://icons.iconarchive.com/icons/blackblurrr/xmas-new-year-2011/48/angel-icon.png
+		icon:http://icons.iconarchive.com/icons/awicons/vista-artistic/48/2-Hot-Paper-Box-icon.png
 		
 
 
