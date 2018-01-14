@@ -42,7 +42,7 @@ Resources
 		icon:http://icons.iconarchive.com/icons/blog-perfume/blogging/48/date-icon.png
 		no tooltip
 		
-	*Grade
+	*grade
 		text:You are in [this]th grade
 		start with:1
 		
