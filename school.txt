@@ -120,7 +120,7 @@ Upgrades
 		passive:grant 1 grade
 		cost:30000 money
 		req:30000 points
-		icon:https://b.thumbs.redditmedia.com/7E0VxlZQt28cvFq2cJrwt_o53oTyQCCGYljwl4taj9k.png
+		text: #2
 		
 	*Grade3
 		name: Grade Up
@@ -128,7 +128,7 @@ Upgrades
 		passive:grant 1 grade
 		cost:3000000 money
 		req:3000000 points
-		icon:https://b.thumbs.redditmedia.com/i_QL-nvbVB7Y7QF41efdkw29QYBsQgYkYkCAwTKKHyo.png
+		text: #3
 		
 	*Grade4
 		name: Grade Up
@@ -136,7 +136,7 @@ Upgrades
 		passive:grant 1 grade
 		cost:300000000 money
 		req:300000000 points
-		icon:https://b.thumbs.redditmedia.com/vaSqlSu7Zzd6OdjaoFzw_Mlu-uMso8ZwY-Zm_GIXj3U.png
+		text: #4
 		
 	*Grade5
 		name: Grade Up
@@ -144,7 +144,7 @@ Upgrades
 		passive:grant 1 grade
 		cost:30000000000 money
 		req:30000000000 points
-		icon:https://a.thumbs.redditmedia.com/PAM8CWBOSHuqlGx6T2cqLFxnKHPOEI-FlKD2jw6d_l0.png
+		text: #5
 		
 	*Grade6
 		name: START MIDDLE SCHOOL
@@ -152,7 +152,7 @@ Upgrades
 		passive:grant 1 grade
 		cost:3000000000000 money
 		req:3000000000000 points
-		icon:https://b.thumbs.redditmedia.com/wd0JAjzg9vMUspYJr1xcQFz3FQbhGbbF4b-XQjzBBJk.png
+		text: #6
 		
 		
 	*clickI
@@ -189,7 +189,7 @@ Upgrades
 		
 	*clickV
 		name:Old books
-		desc:A book from the Middle Ages. Dated [random(1200,1400)]. When you click, you'll get [history*2] more points!
+		desc:A book from the Middle Ages. Dates back to [random(1200,1400)]. When you click, you'll get [history*2] more points!
 		passive:increase yield of click by (history*2)
 		icon:cookie[0,14]
 		cost:5000000 money
@@ -197,7 +197,7 @@ Upgrades
 		
 	*clickVI
 		name:Silver books
-		desc:A book from the Industrial Revolution. Dated [random(1200,1400)]. When you click, you'll get [1000*history] more points!
+		desc:A book from the Industrial Revolution. When you click, you'll get [1000*history] more points!
 		passive:increase yield of click by (1000*history)
 		cost:500000000 money
 		req:4 grade
