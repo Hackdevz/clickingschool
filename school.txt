@@ -107,6 +107,8 @@ Upgrades
 		end
 		icon:http://icons.iconarchive.com/icons/blackblurrr/xmas-new-year-2011/48/angel-icon.png
 		
+	//*Grade2
+		
 		
 	*clickI
 		name:Auto-studying software
@@ -134,11 +136,27 @@ Upgrades
 		
 	*clickIV
 		name:Gold books
-		desc:Found in the auto-studying caves. When you click, you'll get [points:ps/50] more points!
+		desc:A rare egyptian book, containing the [random(10,1000)] laws of study. When you click, you'll get [points:ps/50] more points!
 		passive:increase yield of click by (points:ps/50)
 		icon:cookie[0,13]
 		cost:50000 money
 		req:2 grade
+		
+	*clickV
+		name:Old books
+		desc:A book from the Middle Ages. Dated [random(1200,1400)]. When you click, you'll get [points:ps/50] more points!
+		passive:increase yield of click by (points:ps/50)
+		icon:cookie[0,13]
+		cost:5000000 money
+		req:3 grade
+		
+	*clickVI
+		name:Silver books
+		desc:A book from the Industrial Revolution. Dated [random(1200,1400)]. When you click, you'll get [points:ps/50] more points!
+		passive:increase yield of click by (points:ps/50)
+		icon:cookie[0,13]
+		cost:5000000 money
+		req:3 grade
 		
 	
 		
