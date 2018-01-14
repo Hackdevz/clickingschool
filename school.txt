@@ -230,8 +230,57 @@ Upgrades
 		cost:50000000000 money
 		req:5 grade
 		
-	
+	*englishI
+		name:Small book
+		desc:A [random(50,200)] page book. Will give you [english*2] more points per second!
+		passive:multiply yield of english by 2
+		cost:150 money
+		req:1 grade
+		icon:http://icons.iconarchive.com/icons/itzikgur/my-seven/48/Books-2-icon.png
 		
-	
+	*englishII
+		name:Book
+		desc:A [random(200,400)] page book. Will give you [english*2] more points per second!
+		passive:multiply yield of english by 2
+		cost:15000 money
+		req:2 grade
+		icon:http://icons.iconarchive.com/icons/itzikgur/my-seven/48/Books-2-icon.png
 		
-
+	*englishIII
+		name:Larger books
+		desc:A [random(400,600)] page book. Will give you [english*2] more points per second!
+		passive:multiply yield of english by 2
+		cost:1500000 money
+		req:3 grade
+		icon:http://icons.iconarchive.com/icons/itzikgur/my-seven/48/Books-2-icon.png
+		
+	*englishIV
+		name:Booker books
+		desc:A [random(600,900)] page book. Will give you [english*2] more points per second!
+		passive:multiply yield of english by 2
+		cost:150000000 money
+		req:4 grade
+		icon:http://icons.iconarchive.com/icons/itzikgur/my-seven/48/Books-2-icon.png
+		
+	*englishV
+		name:Library
+		desc:Only for nerds. Will give you [100*english] more points per second!
+		passive:increase yield of english by (100*english)
+		cost:15000000000 money
+		req:5 grade
+		icon:http://icons.iconarchive.com/icons/itzikgur/my-seven/48/Books-2-icon.png
+	*englishVI
+		name:Big Library
+		desc:Only for super-upgraded level 50 adamantium OP nerds. Will give you [100*math+10] more points per second!
+		passive:increase yield of english by (100*math+10)
+		cost:1500000000000 money
+		req:6 grade
+		icon:http://icons.iconarchive.com/icons/itzikgur/my-seven/48/Books-2-icon.png
+		
+	*englishVII
+		name:God's Library
+		desc:Only for damn A+++++++ ninja students. Will give you [100*math+10] more points per second!
+		passive:increase yield of english by (100*math+10)
+		cost:150000000000000 money
+		req:7 grade
+		icon:http://icons.iconarchive.com/icons/itzikgur/my-seven/48/Books-2-icon.png
