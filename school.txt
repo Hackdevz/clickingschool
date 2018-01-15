@@ -429,4 +429,42 @@ Upgrades
 		req:6 grade
 		req:time
 		icon:cookie[8,15]
+		
+	*historyVII
+		name:Renaissance  discovered!
+		desc:Will give you [history*6] more points per second!
+		passive:increase yield of history by (history*5)
+		cost:750000000000000 money
+		req:7 grade
+		req:time
+		icon:cookie[8,16]
+	*historyVIII
+		name:Industrial Age  discovered!
+		desc:<q>produce more cookies, upgrade da factory! -Sample Cookie clicker player</q>  Will give you [history*10] more points per second!
+		passive:increase yield of history by (history*5)
+		cost:75000000000000000 money
+		req:8 grade
+		req:time
+		icon:cookie[8,17]
+		
+	*historyIX
+		name:World War II discovered!
+		desc:Oh no, Hitler! Will give you [history*(history/10)] more points per second!
+		passive:increase yield of history by (history*(history/10))
+		cost:666e18 money
+		req:9 grade
+		icon:cookie[8,18]
+		
+	*historyX
+		name:Future
+		desc:Will give you [history*(history/10)] more points per second!
+		passive:increase yield of history by (history*(history/10))
+		cost:666e20 money
+		req:10 grade
+		icon:cookie[8,18]
+			
+	
+		
+	// MATH
+		//http://icons.iconarchive.com/icons/iconarchive/red-orb-alphabet/48/Math-plus-icon.png
 
