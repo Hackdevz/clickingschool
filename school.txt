@@ -442,7 +442,7 @@ Upgrades
 		name:Industrial Age  discovered!
 		desc:<q>produce more cookies, upgrade da factory! -Sample Cookie clicker player</q>  Will give you [history*10] more points per second!
 		passive:increase yield of history by (history*5)
-		cost:75000000000000000 money
+		cost:7.5e16 money
 		req:8 grade
 		req:time
 		icon:cookie[8,17]
@@ -462,9 +462,58 @@ Upgrades
 		cost:666e20 money
 		req:10 grade
 		icon:cookie[8,18]
+		
+	*historyX
+		name:Future
+		desc:Will give you [history*(history/10)] more points per second!
+		passive:increase yield of history by (history*(history/10))
+		cost:666e20 money
+		req:10 grade
+		icon:cookie[8,19]
+		
+	*historyRunic1
+		name:History Runic -- Piece #1
+		desc:Boosts your history production by [history/100]
+		passive:multiply yield of history by (history/100)
+		cost:10 prestigeMoney
+		req:runicUnlock
+		icon:cookie[8,20]
+		
+	*historyRunic2
+		name:History Runic -- Piece #2
+		desc:Boosts your history production by [history/75]!
+		passive:multiply yield of history by (history/75)
+		cost:1000 prestigeMoney
+		req:historyRunic1
+		icon:cookie[8,21]
 			
 	
 		
 	// MATH
 		//http://icons.iconarchive.com/icons/iconarchive/red-orb-alphabet/48/Math-plus-icon.png
+		
+		
+		
+		
+	//------------//
+	//  HEAVENLY  //
+	//------------//
 
+	*heavenlyKey
+	name:Heavenly Key
+	desc:Unlocks your heavenly potential. <q> The key of The Heavenly study Door. -Iso-Khrath </q>
+	icon:cookie[15,7]
+	req:1 heavenlyMoney
+	passive:multiply yield of points by (heavenlyPoints/100)
+	passive:multiply yield of money by (heavenlyPoints/100)
+	cost:1 heavenlyMoney
+	
+	
+	*runicUnlock
+	name:Relics of Runes
+	desc:Unlocks your heavenly potential. <q> The key of The Heavenly study Door. -Iso-Khrath </q>
+	icon:cookie[15,7]
+	req:1 heavenlyMoney
+	passive:multiply yield of points by (heavenlyPoints/100)
+	passive:multiply yield of money by (heavenlyPoints/100)
+	cost:1 heavenlyMoney
