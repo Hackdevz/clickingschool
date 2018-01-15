@@ -360,10 +360,27 @@ Upgrades
 		name:Heavenly library
 		desc:Literally from God. Will give you [120*math+7] more points per second!
 		passive:increase yield of english by (120*math+7)
-		cost:2 prestigeMoney
+		cost:15000000000000000
 		req:8 grade
 		icon:http://icons.iconarchive.com/icons/itzikgur/my-seven/48/Books-2-icon.png
+		
+	*englishIX
+		name:Changing number library
+		desc:[random(90000000000000000000000000000000000000000000000000000000000000,900000000000000000000000000000000000000000000000000000000000000000000000000)].. You will get [1e15/english] more points per second by using this!
+		passive:increase yield of english by (1e15/english)
+		cost:15000000000000000
+		req:9 grade
+		icon:http://icons.iconarchive.com/icons/itzikgur/my-seven/48/Books-2-icon.png
+	
+	*englishX
+		name:[english*english*english] Book Library
+		desc:	---- b a n g ----   - You will get [english*english*english] more points per second by using this!
+		passive:increase yield of english by english*english*english
+		cost:15000000000000000
+		req:10 grade
+		icon:http://icons.iconarchive.com/icons/itzikgur/my-seven/48/Books-2-icon.png
 
+	
 
 	// History book upgrades, boi
 	*time
