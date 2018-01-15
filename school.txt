@@ -63,7 +63,7 @@ Resources
 Layout
 
 	*main
-		contains:res,stats,prestigeRes
+		contains:res, stats, prestigeRes
   			*res
     				contains:tag:resource
     				class:fullWidth
