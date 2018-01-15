@@ -60,21 +60,8 @@ Resources
 		icon:http://icons.iconarchive.com/icons/awicons/vista-artistic/48/2-Hot-Paper-Box-icon.png
 		tag:prestigeRes
 		
-Layout
-
-	*main
-		contains:res, stats, prestigeRes
-  			*res
-    				contains:tag:resource
-    				class:fullWidth
-			*stats
-				contains:tag:stat
-				ps:hide
-			header:Statistics
-			*prestigeRes
-				contains:tag:prestigeRes
-				ps:hide
-				header:Heavenly
+Layout	
+		
 
 
 		
@@ -84,11 +71,8 @@ Layout
    	 			contains:BulkDisplay, Buildings
     				header:Buildings
     				tooltip origin:left
-			*reset
-				in:upgrades
-				contains:tag:reset
-				header: RESET!
-				costs:hide
+			
+			
   			*upgrades
     				contains:Upgrades
     				header:Upgrades
