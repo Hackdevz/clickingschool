@@ -51,17 +51,19 @@ Resources
 		desc:You can grade up in your heavenly school with them!
 		hidden when 0
 		icon:http://icons.iconarchive.com/icons/blackblurrr/xmas-new-year-2011/48/angel-icon.png
+		tag:prestigeRes
 		
 	*prestigeMoney
 		name:Scrolls of Heaven
 		desc:Rare, magic scrolls. You can use them on heavenly upgrades and runic equipment. Icon by http://awicons.com
 		hidden when 0
 		icon:http://icons.iconarchive.com/icons/awicons/vista-artistic/48/2-Hot-Paper-Box-icon.png
+		tag:prestigeRes
 		
 Layout
 
 	*main
-		contains:res,stats,prestige
+		contains:res,stats,prestigeRes
   			*res
     				contains:tag:resource
     				class:fullWidth
@@ -69,8 +71,8 @@ Layout
 				contains:tag:stat
 				ps:hide
 			header:Statistics
-			*prestige
-				contains:tag:prestige
+			*prestigeRes
+				contains:tag:prestigeRes
 				ps:hide
 				header:Heavenly
 
