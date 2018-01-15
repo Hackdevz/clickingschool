@@ -1,6 +1,6 @@
 Let's make a game!
 	name:Clicking School
-		by:The Clicking School Team, with some help from Regian
+		by:The Clicking School Teamq1
 		desc:Study and become better! Get upgrades and power up your books! Conquest empires and become the King Of The World!<//><i>More info</i><.>Created on <b>13/01/2018</b><.>Last updated on <b>13/01/2018</b><.>Version 0.90 Beta</b>.
 
  
@@ -504,8 +504,8 @@ Upgrades
 	desc:Unlocks your heavenly potential. <q> The key of The Heavenly study Door. -Iso-Khrath </q>
 	icon:cookie[15,7]
 	req:1 prestigePoints
-	passive:multiply yield of points by (heavenlyPoints/100)
-	passive:multiply yield of money by (heavenlyPoints/100)
+	passive:multiply yield of points by (1+(prestigePoints/100))
+	passive:multiply yield of money by (1+(prestigePoints/100))
 	cost:1 heavenlyMoney
 	
 	
