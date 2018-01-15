@@ -129,6 +129,8 @@ Upgrades
 			lose english
 			lose history
 			lose math
+			lose geography
+			lose science
 			lose prestige
 			
 		end
@@ -506,7 +508,15 @@ Upgrades
 		passive:multiply yield of math by 2
 		cost:500000 money
 		req:2 grade
-		icon:http://icons.iconarchive.com/icons/iconarchive/red-orb-alphabet/48/Math-minus-icon.png
+		icon:http://icons.iconarchive.com/icons/iconarchive/red-orb-alphabet/48/Math-multiply-icon.png
+		
+	*mathIV
+		name:Division
+		desc:344 / 34.4 = 10.... If you learn this, you will get [math*2] points per second
+		passive:multiply yield of math by 2
+		cost:50000000 money
+		req:3 grade
+		icon:http://icons.iconarchive.com/icons/iconarchive/red-orb-alphabet/48/Math-divide-icon.png
 		
 		
 		
@@ -527,11 +537,11 @@ Upgrades
 	
 	
 	*runicUnlock
-	name:Goldstone
+	name:Runic Gold
 	desc:Unlocks <b>runics</b>, rare crystals that creates a big boost.<q> </q>
-	icon:cookie[15
-	passive:multiply yield of money by (heavenlyPoints/100)
-	cost:1 heavenlyMoney
+	icon:http://icons.iconarchive.com/icons/everaldo/crystal-clear/48/App-kgoldrunner-gold-icon.png
+	passive:multiply yield of money by (prestigePoints/100)
+	cost:1 prestigeMoney
 	
 	
 	// Runics
