@@ -63,7 +63,7 @@ Resources
 Layout	
 		
 
-
+	use default
 		
 	*store
   		contains:buildings, upgrades, heavenlyUpg
@@ -545,8 +545,16 @@ Upgrades
 		req:3 grade
 		icon:http://icons.iconarchive.com/icons/iconarchive/red-orb-alphabet/48/Math-divide-icon.png
 		
+	*mathV
+		name:Geometry
+		desc:Triangles, circles and squares.... If you learn this, you will get [math*2] points per second
+		passive:multiply yield of math by 2
+		cost:50000000 money
+		req:3 grade
+		icon:http://icons.iconarchive.com/icons/umar123/build/48/0017-Pencil-and-Ruler-icon.png
 		
 		
+		//
 		
 		
 	//------------//
