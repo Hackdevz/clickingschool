@@ -66,7 +66,7 @@ Layout
 
 		
 	*store
-  		contains:buildings, upgrades, stats
+  		contains:buildings, upgrades, heavenlyUpg
  			*buildings
    	 			contains:BulkDisplay, Buildings
     				header:Buildings
