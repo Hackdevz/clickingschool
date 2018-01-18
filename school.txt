@@ -596,15 +596,16 @@ Upgrades
 	req:1 prestigePoints
 	passive:multiply yield of points by (1+(prestigePoints/100))
 	passive:multiply yield of money by (1+(prestigePoints/100))
-	cost:1 heavenlyMoney
+	cost:1 prestigeMoney
 	
 	
 	*runicUnlock
 	name:Runic Gold
 	desc:Unlocks <b>runics</b>, rare gems that create a big boost.<q>"@fiveamp" gave me the inspiration</q>
 	icon:http://icons.iconarchive.com/icons/everaldo/crystal-clear/48/App-kgoldrunner-gold-icon.png
-	passive:multiply yield of money by (prestigePoints/100)
+	passive:multiply yield of money by (prestigePoints/english)
 	cost:1 prestigeMoney
+	req:1 prestigeMoney
 	
 	
 	// Runics
@@ -630,18 +631,16 @@ Upgrades
 	
 	*crystalUnlock
 		name:Crystal Key
-		desc:Now you can open the Crystal Dpor and encounter Chiara <b>CRYSTALS</b>, rare crystals that creates a big boost.<q> </q>
-		icon:http://icons.iconarchive.com/icons/everaldo/crystal-clear/48/App-kgoldrunner-gold-icon.png
-		passive:multiply yield of money by (prestigePoints/100)
-		cost:1 prestigeMoney
-	
+		desc:Now you can open the Crystal Dpor and encounter Chiara. If you open the door you unlock <b>CRYSTALS</b>, rare boosts never heard before.<q>"It's time to open the door" -Chiara </q>.---. Icon by  artdesigner.lv
+		icon:http://icons.iconarchive.com/icons/artdesigner/my-secret/48/diamond-icon.png
+		cost:1111 prestigeMoney
+		req:1111 prestigeMoney
 	*crystal1
 		name:Crystal of Pointness
-		desc:Boosts your zen potential and creates a lot of points per second -Mathus Christ
-		passive:multiply yield of history by (history/75)
+		desc:Boosts your zen potential and creates a lot of points per second <q>"Zen pointing" -Chiara</q>
 		cost:111111 prestigeMoney
-		req:runic
-		icon:cookie[8,21]
+		req:crystalUnlock
+		icon:http://icons.iconarchive.com/icons/artdesigner/my-secret/48/diamond-icon.png 
 	
 	//http://icons.iconarchive.com/icons/artdesigner/my-secret/48/diamond-icon.png 
 	// artdesigner.lv
