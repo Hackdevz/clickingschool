@@ -627,7 +627,7 @@ Upgrades
 	*geographyIV
 		name:Moonwalking
 		desc:<q> "Low gravity detected, sir" -Kittens </q> If you learn how to this, you will get [geography*geography*1+(100/math)] points per second
-		passive:multiply yield of geography by (geography*1+(100/math))
+		passive:increase yield of geography by (geography*1+(100/math))
 		cost:1.5e10 money
 		req:4 grade
 		icon:http://icons.iconarchive.com/icons/mazenl77/NX11/48/Internet-Real-icon.png
@@ -636,7 +636,7 @@ Upgrades
 	*geographyV
 		name:Galaxies
 		desc:<q> "FASTER MENNER THANNER THER LIGHTER SPEEDIER!" -IDLERER </q> If you learn how to this, you will get [geography*geography*1+(100/math)] points per second
-		passive:multiply yield of geography by (geography*1+(100/math))
+		passive:increase yield of geography by (geography*1+(100/math))
 		cost:1.5e12 money
 		req:5 grade
 		icon:http://icons.iconarchive.com/icons/mazenl77/NX11/48/Internet-Real-icon.png
@@ -644,7 +644,7 @@ Upgrades
 	*geographyVI
 		name:Portalling
 		desc:<q> "Do not settle near portals or your brain will become corrupted" -Warhammer 39,999 </q> If you learn how to this, you will get [geography*geography*1+(100/math)] points per second
-		passive:multiply yield of geography by (geography*1+(100/math))
+		passive:increase yield of geography by (geography*1+(100/math))
 		cost:1.5e14 money
 		req:6 grade
 		icon:http://icons.iconarchive.com/icons/mazenl77/NX11/48/Internet-Real-icon.png
@@ -652,7 +652,7 @@ Upgrades
 	*geographyVII
 		name:Antimatter portalling
 		desc:<q> "Created by Hevipelle." </q> If you learn how to this, you will get [geography*geography*1+(100/math)] points per second
-		passive:multiply yield of geography by (geography*1+(100/math))
+		passive:increase yield of geography by (geography*1+(100/math))
 		cost:1.5e16 money
 		req:7 grade
 		icon:http://icons.iconarchive.com/icons/mazenl77/NX11/48/Internet-Real-icon.png
@@ -679,7 +679,7 @@ Upgrades
 	*scienceI
 		name:Plant experiment
 		desc:<q>7 days left. </q> If you learn how to this, you will get [science/math*100] points per second
-		passive:multiply yield of science by (science/math*100)
+		passive:increase yield of science by (science/math*100)
 		cost:72000 money
 		req:2 grade
 		icon:cookie[9,0]
@@ -688,7 +688,7 @@ Upgrades
 	*scienceII
 		name:Chemistry
 		desc:<q>H2O = Water! </q> If you learn how to this, you will get [science/math*100] points per second
-		passive:multiply yield of science by (science/math*100)
+		passive:increase yield of science by (science/math*100)
 		cost:7200000 money
 		req:3 grade
 		icon:cookie[9,1]
@@ -696,7 +696,7 @@ Upgrades
 	*scienceIII
 		name:Basic physics
 		desc:<q>Oh, gravity! </q> If you learn how to this, you will get [science/math*100] points per second
-		passive:multiply yield of science by (science/math*100)
+		passive:increase yield of science by (science/math*100)
 		cost:7.2e10 money
 		req:4 grade
 		icon:cookie[9,2]
@@ -704,7 +704,7 @@ Upgrades
 	*scienceIV
 		name:Human Body Engineering
 		desc:<q>Bacteria farming? </q> If you learn how to this, you will get [science/math*100] points per second
-		passive:multiply yield of science by (science/math*100)
+		passive:increase yield of science by (science/math*100)
 		cost:7.2e12 money
 		req:5 grade
 		icon:cookie[9,13]
@@ -712,7 +712,7 @@ Upgrades
 	*scienceV
 		name:Science hacking
 		desc:<q>Loading terraformer.exe </q> If you learn how to this, you will get [science/math*100] points per second
-		passive:multiply yield of science by (science/math*100)
+		passive:increase yield of science by (science/math*100)
 		cost:7.2e14 money
 		req:6 grade
 		icon:cookie[9,14]
@@ -720,7 +720,7 @@ Upgrades
 	*scienceVI
 		name:Physicsology (trial)
 		desc:<q>Physicsosomosolosogy. </q> If you learn how to this, you will get [science/math*100] points per second
-		passive:multiply yield of science by (science/math*100)
+		passive:increase yield of science by (science/math*100)
 		cost:7.2e16 money
 		req:7 grade
 		icon:cookie[9,15]
@@ -728,7 +728,7 @@ Upgrades
 	*scienceVII
 		name:Astronomy (trial)
 		desc:<q>Someone in Alpha Centauri D is playing Brainstorm's Deepworld Space Miner </q> If you learn how to this, you will get [science/math*100] points per second
-		passive:multiply yield of science by (science/math*100)
+		passive:increase yield of science by (science/math*100)
 		cost:7.2e18 money
 		req:8 grade
 		icon:cookie[9,16]
@@ -736,7 +736,7 @@ Upgrades
 	*scienceVIII
 		name:AI Engineering
 		desc:<q>"0101010111010100101010010010101010"  -My new AI</q> If you learn how to this, you will get [science/math*100] points per second
-		passive:multiply yield of science by (science/math*100)
+		passive:increase yield of science by (science/math*100)
 		cost:7.2e20 money
 		req:9 grade
 		icon:cookie[9,17]
@@ -744,7 +744,7 @@ Upgrades
 	*scienceIX
 		name:Potatology
 		desc:<q>Have you actually played SPACEPLAN?</q> If you learn how to this, you will get [science/math*100] points per second
-		passive:multiply yield of science by (science/math*100)
+		passive:increase yield of science by (science/math*100)
 		cost:7.2e22 money
 		req:10 grade
 		icon:cookie[9,18]
@@ -760,7 +760,7 @@ Upgrades
 	*musicI
 		name:Learn Piano!
 		desc:If you learn how to play this instruments, you will get [(music*100/(music))] points per second
-		passive:multiply yield of music by (music*100/(music))
+		passive:increase yield of music by (music*100/(music))
 		cost:196000 money
 		req:2 grade
 		icon:http://icons.iconarchive.com/icons/itzikgur/my-seven/48/Music-Piano-icon.png
@@ -768,7 +768,7 @@ Upgrades
 	*musicII
 		name:Learn Dammit Flute!
 		desc:If you learn how to play this instruments, you will get [(music*100/(music))] points per second.   <q>Seriously, a guy at the dev team got a F--- in flute</q>
-		passive:multiply yield of music by (music*100/(music))
+		passive:increase yield of music by (music*100/(music))
 		cost:1.96e8 money
 		req:2 grade
 		icon:http://icons.iconarchive.com/icons/sirea/instruments/128/Flute-icon.png
