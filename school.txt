@@ -1,7 +1,7 @@
 Let's make a game!
 	name:Clicking School
-		by:The Clicking School Teamq1
-		desc:Study and become better! Get upgrades and power up your books! Conquest empires and become the King Of The World!<//><i>More info</i><.>Created on <b>13/01/2018</b><.>Last updated on <b>13/01/2018</b><.>Version 0.90 Beta</b>.
+		by:The Clicking School Team
+		desc:Study and become better! Get upgrades and power up your books! Conquest empires and become the King Of The World!	<//><i>More info</i><.>Created on <b>13/01/2018</b><.>Last updated on <b>13/01/2018</b><.>Version 0.90 Beta</b>.
 
  
 
@@ -149,7 +149,7 @@ Upgrades
 	*prestige
 		name: ASCEND
 		tag:reset
-		desc:You will destroy: <//>-<b>All your books</b><//>-<b>All your points and dollars</b><//>And you will get [(pow(points, (1/3))/1e12)] heavenly points. You can use the heavenly points on heavenly upgrades.<//> You need 1 trillion normal points to get your first heavenly point.
+		desc:You will destroy: <//>-<b>All your books</b><//>-<b>All your points and dollars</b><//>And you will get [(pow(points, (1/3))/1e12)] heavenly points. You can use the heavenly points on heavenly upgrades, runics, crystals and secret power-ups.<//> You need 1 trillion normal points to get your first heavenly point.
 		passive:grant (pow(points, (1/3))/1e12) prestigePoints
 		on earn:
 			lose points
@@ -159,6 +159,7 @@ Upgrades
 			lose math
 			lose geography
 			lose science
+			lose music
 			lose prestige
 			
 		end
@@ -639,6 +640,58 @@ Upgrades
 		cost:1.5e12 money
 		req:5 grade
 		icon:http://icons.iconarchive.com/icons/mazenl77/NX11/48/Internet-Real-icon.png
+		
+	*geographyVI
+		name:Portalling
+		desc:<q> "Do not settle near portals or your brain will become corrupted" -Warhammer 39,999 </q> If you learn how to this, you will get [geography*1+(100/math)] points per second
+		passive:multiply yield of geography by (geography*1+(100/math))
+		cost:1.5e14 money
+		req:6 grade
+		icon:http://icons.iconarchive.com/icons/mazenl77/NX11/48/Internet-Real-icon.png
+		
+	*geographyVII
+		name:Antimatter portalling
+		desc:<q> "Created by Hevipelle." </q> If you learn how to this, you will get [geography*1+(100/math)] points per second
+		passive:multiply yield of geography by (geography*1+(100/math))
+		cost:1.5e16 money
+		req:7 grade
+		icon:http://icons.iconarchive.com/icons/mazenl77/NX11/48/Internet-Real-icon.png
+		
+	*geographyVIII
+		name:Faster geography
+		desc:<q> Liiiight speeeeeeeeeeeeeeeeeed..................... . . . . . . . . .. . . .    .        .            . </q> If you learn how to this, you will get [geography*10] points per second
+		passive:multiply yield of geography by 10
+		cost:1.5e18 money
+		req:8 grade
+		icon:http://icons.iconarchive.com/icons/mazenl77/NX11/48/Internet-Real-icon.png
+		
+	*geographyIX
+		name:The Last Upgrade
+		desc:<q>This upgrade will boost your geography skills. </q> If you learn how to this, you will get [geography*10] points per second
+		passive:multiply yield of geography by 10
+		cost:1.5e20 money
+		req:9 grade
+		icon:http://icons.iconarchive.com/icons/mazenl77/NX11/48/Internet-Real-icon.png
+		
+		
+	// Science
+		
+	*scienceI
+		name:Plant experiment
+		desc:<q>This upgrade will boost your geography skills. </q> If you learn how to this, you will get [science/math*100] points per second
+		passive:multiply yield of science by (science/math*100)
+		cost:72000 money
+		req:2 grade
+		icon:cookie[1,1]
+		
+		
+		
+		
+		
+		
+	// MUSIC
+	
+	//http://icons.iconarchive.com/icons/itzikgur/my-seven/48/Music-Piano-icon.png
 	
 	
 	//------------//
