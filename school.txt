@@ -678,13 +678,36 @@ Upgrades
 		
 	*scienceI
 		name:Plant experiment
-		desc:<q>This upgrade will boost your geography skills. </q> If you learn how to this, you will get [science/math*100] points per second
+		desc:<q>7 days left. </q> If you learn how to this, you will get [science/math*100] points per second
 		passive:multiply yield of science by (science/math*100)
 		cost:72000 money
 		req:2 grade
-		icon:cookie[1,1]
+		icon:cookie[9,0]
 		
 		
+	*scienceII
+		name:Chemistry
+		desc:<q>H2O = Water! </q> If you learn how to this, you will get [science/math*100] points per second
+		passive:multiply yield of science by (science/math*100)
+		cost:7200000 money
+		req:3 grade
+		icon:cookie[9,1]
+		
+	*scienceIII
+		name:Basic physics
+		desc:<q>Oh, gravity! </q> If you learn how to this, you will get [science/math*100] points per second
+		passive:multiply yield of science by (science/math*100)
+		cost:7.2e10 money
+		req:4 grade
+		icon:cookie[9,2]
+		
+	*scienceIV
+		name:Human Body Engineering
+		desc:<q>Bacteria farming? </q> If you learn how to this, you will get [science/math*100] points per second
+		passive:multiply yield of science by (science/math*100)
+		cost:7.2e12 money
+		req:5 grade
+		icon:cookie[9,13]
 		
 		
 		
