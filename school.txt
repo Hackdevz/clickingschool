@@ -549,14 +549,52 @@ Upgrades
 		name:Geometry
 		desc:Triangles, circles and squares.... If you learn this, you will get [math*2] points per second
 		passive:multiply yield of math by 2
-		cost:50000000 money
-		req:3 grade
+		cost:5e9 money
+		req:4 grade
 		icon:http://icons.iconarchive.com/icons/umar123/build/48/0017-Pencil-and-Ruler-icon.png
 		
+	*mathVI
+		name:Quasi-algebra
+		desc:(x*y)*y*x!!!1!1!!!!!1!!!1!111! If you learn this, you will get [math*2] points per second
+		passive:multiply yield of math by 2
+		cost:5e11 money
+		req:6 grade
+		icon:http://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/48/Categories-applications-education-mathematics-icon.png
+	
+	*mathVII
+		name:A-a-algebra?
+		desc:(x*y)*y*x!!!1!1!!!!!1!!!1!111! If you learn this, you will get [math*2] points per second
+		passive:multiply yield of math by 2
+		cost:5e13 money
+		req:7 grade
+		icon:http://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/48/Categories-applications-education-mathematics-icon.png
 		
-		//
+	
+	*mathVIII
+		name:Trigonometry
+		desc:73/\73/\73. /I\/L\/O\/V\/E\/M\/A\/T\/H\/S\/!\ If you learn this, you will get [math*2] points per second
+		passive:multiply yield of math by 2
+		cost:5e15 money
+		req:8 grade
+		icon:http://icons.iconarchive.com/icons/danieledesantis/playstation-flat/48/playstation-triangle-black-and-white-icon.png
 		
-		
+	
+	*mathIX
+		name:Topology
+		desc:TOPO means MOUSE in Italian! If you learn this, you will get [math*2] points per second
+		passive:multiply yield of math by 2
+		cost:5e17 money
+		req:9 grade
+		icon:http://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/48/Apps-quassel-icon.png
+	
+	*mathX
+		name:Googology
+		desc:googology.wikia.com @MathCookie17  10^10^10^Skewes'Number^Graham's Number^G100^GGGraham's number^73/\73 If you learn this, you will get [math*2] points per second
+		passive:multiply yield of math by 2
+		cost:5e19 money
+		req:8 grade
+		icon:http://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/48/Apps-quassel-icon.png
+	
 	//------------//
 	//  HEAVENLY  //
 	//------------//
@@ -575,7 +613,7 @@ Upgrades
 	
 	*runicUnlock
 	name:Runic Gold
-	desc:Unlocks <b>runics</b>, rare crystals that creates a big boost.<q> </q>
+	desc:Unlocks <b>runics</b>, rare gems that create a big boost.<q>"@fiveamp" gave me the inspiration</q>
 	icon:http://icons.iconarchive.com/icons/everaldo/crystal-clear/48/App-kgoldrunner-gold-icon.png
 	passive:multiply yield of money by (prestigePoints/100)
 	cost:1 prestigeMoney
@@ -601,6 +639,21 @@ Upgrades
 
 
 	// Crystals
+	
+	*crystalUnlock
+		name:Crystal Key
+		desc:Now you can open the Crystal Dpor and encounter Chiara <b>CRYSTALS</b>, rare crystals that creates a big boost.<q> </q>
+		icon:http://icons.iconarchive.com/icons/everaldo/crystal-clear/48/App-kgoldrunner-gold-icon.png
+		passive:multiply yield of money by (prestigePoints/100)
+		cost:1 prestigeMoney
+	
+	*crystal1
+		name:Crystal of Pointness
+		desc:Boosts your zen potential and creates a lot of points per second -Mathus Christ
+		passive:multiply yield of history by (history/75)
+		cost:111111 prestigeMoney
+		req:runic
+		icon:cookie[8,21]
 	
 	//http://icons.iconarchive.com/icons/artdesigner/my-secret/48/diamond-icon.png 
 	// artdesigner.lv
