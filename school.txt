@@ -132,6 +132,19 @@ Buildings
 		cost:7200 money
 		req:2 grade
 		
+	*music
+		name:Music Book
+		text:Music Book ([this] pages done)
+		desc:B C D C# Cb Db C# C# C# . Produces <b>200 points and 200 $</b> per second
+		cost increase:103%
+		on tick:yield 200 points
+		on tick:yield 200 money
+		icon:https://i.imgur.com/hlC4jPI.png		
+		cost:19600 money
+		req:2 grade
+		
+	//https://i.imgur.com/hlC4jPI.png
+		
 Upgrades
 	*prestige
 		name: ASCEND
