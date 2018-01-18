@@ -612,8 +612,8 @@ Upgrades
 	
 	*geographyIV
 		name:Moonwalking
-		desc:<q> "Low gravity detected, sir" -Kittens </q> If you learn how to this, you will get [geography*1+(100/maths)] points per second
-		passive:multiply yield of geography by (geography*1+(100/maths))
+		desc:<q> "Low gravity detected, sir" -Kittens </q> If you learn how to this, you will get [geography*1+(100/math)] points per second
+		passive:multiply yield of geography by (geography*1+(100/math))
 		cost:1.5e10 money
 		req:4 grade
 		icon:http://icons.iconarchive.com/icons/mazenl77/NX11/48/Internet-Real-icon.png
@@ -621,8 +621,8 @@ Upgrades
 		
 	*geographyV
 		name:Galaxies
-		desc:<q> "FASTER MENNER THANNER THER LIGHTER SPEEDIER!" -IDLERER </q> If you learn how to this, you will get [geography*1+(100/maths)] points per second
-		passive:multiply yield of geography by (geography*1+(100/maths))
+		desc:<q> "FASTER MENNER THANNER THER LIGHTER SPEEDIER!" -IDLERER </q> If you learn how to this, you will get [geography*1+(100/math)] points per second
+		passive:multiply yield of geography by (geography*1+(100/math))
 		cost:1.5e12 money
 		req:5 grade
 		icon:http://icons.iconarchive.com/icons/mazenl77/NX11/48/Internet-Real-icon.png
