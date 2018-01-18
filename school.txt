@@ -334,7 +334,7 @@ Upgrades
 		
 	*englishI
 		name:Small book
-		desc:A 60 page book. Will give you [english*2] more points per second!
+		desc:A 60 page book. Will give you [english*english*2] more points per second!
 		passive:multiply yield of english by 2
 		cost:150 money
 		req:1 grade
@@ -342,7 +342,7 @@ Upgrades
 		
 	*englishII
 		name:Book
-		desc:A 233 page book. Will give you [english*2] more points per second!
+		desc:A 233 page book. Will give you [english*english*2] more points per second!
 		passive:multiply yield of english by 2
 		cost:15000 money
 		req:2 grade
@@ -350,7 +350,7 @@ Upgrades
 		
 	*englishIII
 		name:Larger books
-		desc:A 447 page book. Will give you [english*2] more points per second!
+		desc:A 447 page book. Will give you [english*english*2] more points per second!
 		passive:multiply yield of english by 2
 		cost:1500000 money
 		req:3 grade
@@ -358,7 +358,7 @@ Upgrades
 		
 	*englishIV
 		name:Booker books
-		desc:A 696 page book. Will give you [english*2] more points per second!
+		desc:A 696 page book. Will give you [english*english*2] more points per second!
 		passive:multiply yield of english by 2
 		cost:150000000 money
 		req:4 grade
@@ -366,14 +366,14 @@ Upgrades
 		
 	*englishV
 		name:Library
-		desc:Only for nerds. Will give you [100*english] more points per second!
+		desc:Only for nerds. Will give you [english*100*english] more points per second!
 		passive:increase yield of english by (100*english)
 		cost:15000000000 money
 		req:5 grade
 		icon:http://icons.iconarchive.com/icons/itzikgur/my-seven/48/Books-2-icon.png
 	*englishVI
 		name:Big Library
-		desc:Only for super-upgraded level 50 adamantium OP nerds. Will give you [100*math+10] more points per second!
+		desc:Only for super-upgraded level 50 adamantium OP nerds. Will give you [english*100*math+10] more points per second!
 		passive:increase yield of english by (100*math+10)
 		cost:1500000000000 money
 		req:6 grade
@@ -381,7 +381,7 @@ Upgrades
 		
 	*englishVII
 		name:God's Library
-		desc:Only for damn A+++++++ ninja students. Will give you [100*math+10] more points per second!
+		desc:Only for damn A+++++++ ninja students. Will give you [english*100*math+10] more points per second!
 		passive:increase yield of english by (100*math+10)
 		cost:150000000000000 money
 		req:7 grade
@@ -389,7 +389,7 @@ Upgrades
 		
 	*englishVIII
 		name:Heavenly library
-		desc:Literally from God. Will give you [120*math+7] more points per second!
+		desc:Literally from God. Will give you [english*120*math+7] more points per second!
 		passive:increase yield of english by (120*math+7)
 		cost:15000000000000000
 		req:8 grade
@@ -397,7 +397,7 @@ Upgrades
 		
 	*englishIX
 		name:Changing number library
-		desc:[random(90000000000000000000000000000000000000000000000000000000000000,900000000000000000000000000000000000000000000000000000000000000000000000000)].. You will get [1e15/english] more points per second by using this!
+		desc:[random(90000000000000000000000000000000000000000000000000000000000000,900000000000000000000000000000000000000000000000000000000000000000000000000)].. You will get [english*1e15/english] more points per second by using this!
 		passive:increase yield of english by (1e15/english)
 		cost:15000000000000000
 		req:9 grade
@@ -405,7 +405,7 @@ Upgrades
 	
 	*englishX
 		name:[english*english*english] Book Library
-		desc:	---- b a n g ----   - You will get [english*english*english] more points per second by using this!
+		desc:	---- b a n g ----   - You will get [english*english*english*english] more points per second by using this!
 		passive:increase yield of english by english*english*english
 		cost:15000000000000000
 		req:10 grade
@@ -425,7 +425,7 @@ Upgrades
 	
 	*historyI
 		name:Stone age discovered!
-		desc:4500 BC done. Will give you [history] more points per second!
+		desc:4500 BC done. Will give you [history*history] more points per second!
 		passive:increase yield of history by (history)
 		cost:750 money
 		req:time
@@ -442,7 +442,7 @@ Upgrades
 		
 	*historyIII
 		name:Greek Age discovered!
-		desc:700 BC done. Temple done. Gods done. Ancients done. This is when runics are created .Will give you [history*2] more points per second!
+		desc:700 BC done. Temple done. Gods done. Ancients done. This is when runics are created .Will give you [history*history*2] more points per second!
 		passive:increase yield of history by (history*2)
 		cost:7500000 money
 		req:3 grade
@@ -451,7 +451,7 @@ Upgrades
 		
 	*historyIV
 		name:Roman Empire discovered!
-		desc:200 BC done. Temple done. Pantheon done. Claudius done. Latin poets done .Will give you [history*3] more points per second!
+		desc:200 BC done. Temple done. Pantheon done. Claudius done. Latin poets done .Will give you [history*history*3] more points per second!
 		passive:increase yield of history by (history*3)
 		cost:750000000 money
 		req:4 grade
@@ -461,7 +461,7 @@ Upgrades
 		
 	*historyV
 		name:Christ discovered!
-		desc:Congrats! .Will give you [history*3] more points per second!
+		desc:Congrats! .Will give you [history*history*3] more points per second!
 		passive:increase yield of history by (history*3)
 		cost:75000000000 money
 		req:5 grade
@@ -471,7 +471,7 @@ Upgrades
 		
 	*historyVI
 		name:Middle Age  discovered!
-		desc:Knights. Kings. Clash Royale. Oh no that thing no, it's horrible. Will give you [history*5] more points per second!
+		desc:Knights. Kings. Clash Royale. Oh no that thing no, it's horrible. Will give you [history*history*5] more points per second!
 		passive:increase yield of history by (history*5)
 		cost:7500000000000 money
 		req:6 grade
@@ -480,7 +480,7 @@ Upgrades
 		
 	*historyVII
 		name:Renaissance  discovered!
-		desc:Will give you [history*6] more points per second!
+		desc:Will give you [history*history*6] more points per second!
 		passive:increase yield of history by (history*5)
 		cost:750000000000000 money
 		req:7 grade
@@ -488,7 +488,7 @@ Upgrades
 		icon:cookie[8,16]
 	*historyVIII
 		name:Industrial Age  discovered!
-		desc:<q>produce more cookies, upgrade da factory! -Sample Cookie clicker player</q>  Will give you [history*10] more points per second!
+		desc:<q>produce more cookies, upgrade da factory! -Sample Cookie clicker player</q>  Will give you [history*history*10] more points per second!
 		passive:increase yield of history by (history*5)
 		cost:7.5e16 money
 		req:8 grade
@@ -497,7 +497,7 @@ Upgrades
 		
 	*historyIX
 		name:World War II discovered!
-		desc:Oh no, Hitler! Will give you [history*(history/10)] more points per second!
+		desc:Oh no, Hitler! Will give you [history*history*(history/10)] more points per second!
 		passive:increase yield of history by (history*(history/10))
 		cost:666e18 money
 		req:9 grade
@@ -505,7 +505,7 @@ Upgrades
 		
 	*historyX
 		name:Future
-		desc:Will give you [history*(history/10)] more points per second!
+		desc:Will give you [history*history*(history/10)] more points per second!
 		passive:increase yield of history by (history*(history/10))
 		cost:666e20 money
 		req:10 grade
@@ -517,7 +517,7 @@ Upgrades
 	
 	*mathI
 		name:Addition
-		desc:3 + 3 = 6 .... If you learn this, you will get [math*2] points per seconds
+		desc:3 + 3 = 6 .... If you learn this, you will get [math*math*2] points per seconds
 		passive:multiply yield of history by 2
 		cost:5000 money
 		req:1 grade
@@ -525,7 +525,7 @@ Upgrades
 		
 	*mathII
 		name:Subtraction
-		desc:25 - 20 = 15 .... If you learn this, you will get [math*2] points per second
+		desc:25 - 20 = 15 .... If you learn this, you will get [math*math*2] points per second
 		passive:multiply yield of math by 2
 		cost:50000 money
 		req:1 grade
@@ -533,7 +533,7 @@ Upgrades
 		
 	*mathIII
 		name:Multiplication
-		desc:5 x 15 = 75 .... If you learn this, you will get [math*2] points per second
+		desc:5 x 15 = 75 .... If you learn this, you will get [math*math*2] points per second
 		passive:multiply yield of math by 2
 		cost:500000 money
 		req:2 grade
@@ -541,7 +541,7 @@ Upgrades
 		
 	*mathIV
 		name:Division
-		desc:344 / 34.4 = 10.... If you learn this, you will get [math*2] points per second
+		desc:344 / 34.4 = 10.... If you learn this, you will get [math*math*2] points per second
 		passive:multiply yield of math by 2
 		cost:50000000 money
 		req:3 grade
@@ -549,7 +549,7 @@ Upgrades
 		
 	*mathV
 		name:Geometry
-		desc:Triangles, circles and squares.... If you learn this, you will get [math*2] points per second
+		desc:Triangles, circles and squares.... If you learn this, you will get [math*math*2] points per second
 		passive:multiply yield of math by 2
 		cost:5e9 money
 		req:4 grade
@@ -557,7 +557,7 @@ Upgrades
 		
 	*mathVI
 		name:Quasi-algebra
-		desc:(x*y)*y*x!!!1!1!!!!!1!!!1!111! If you learn this, you will get [math*2] points per second
+		desc:(x*y)*y*x!!!1!1!!!!!1!!!1!111! If you learn this, you will get [math*math*2] points per second
 		passive:multiply yield of math by 2
 		cost:5e11 money
 		req:6 grade
@@ -565,7 +565,7 @@ Upgrades
 	
 	*mathVII
 		name:A-a-algebra?
-		desc:(x*y)*y*x!!!1!1!!!!!1!!!1!111! If you learn this, you will get [math*2] points per second
+		desc:(x*y)*y*x!!!1!1!!!!!1!!!1!111! If you learn this, you will get [math*math*2] points per second
 		passive:multiply yield of math by 2
 		cost:5e13 money
 		req:7 grade
@@ -574,7 +574,7 @@ Upgrades
 	
 	*mathVIII
 		name:Trigonometry
-		desc:73/\73/\73. /I\/L\/O\/V\/E\/M\/A\/T\/H\/S\/!\ If you learn this, you will get [math*2] points per second
+		desc:73/\73/\73. /I\/L\/O\/V\/E\/M\/A\/T\/H\/S\/!\ If you learn this, you will get [math*math*2] points per second
 		passive:multiply yield of math by 2
 		cost:5e15 money
 		req:8 grade
@@ -583,7 +583,7 @@ Upgrades
 	
 	*mathIX
 		name:Topology
-		desc:TOPO means MOUSE in Italian! If you learn this, you will get [math*2] points per second
+		desc:TOPO means MOUSE in Italian! If you learn this, you will get [math*math*2] points per second
 		passive:multiply yield of math by 2
 		cost:5e17 money
 		req:9 grade
@@ -601,7 +601,7 @@ Upgrades
 	
 	*geographyI
 		name:Country exploring
-		desc:Swimming in Mississippi now! If you learn how to this, you will get [geography/2] points per second
+		desc:Swimming in Mississippi now! If you learn how to this, you will get [geography*geography/2] points per second
 		passive:increase yield of geography by (geography/2)
 		cost:15000 money
 		req:1 grade
@@ -610,7 +610,7 @@ Upgrades
 	
 	*geographyII
 		name:Continental exploring
-		desc:If you are exploring Germany now you're not American. If you learn how to this, you will get [geography*2] points per second
+		desc:If you are exploring Germany now you're not American. If you learn how to this, you will get [geography*geography*2] points per second
 		passive:multiply yield of geography by 2
 		cost:1.5e6 money
 		req:2 grade
@@ -618,7 +618,7 @@ Upgrades
 	
 	*geographyIII
 		name:Terraxploring
-		desc:WOW! If you learn how to this, you will get [geography*2] points per second
+		desc:WOW! If you learn how to this, you will get [geography*geography*2] points per second
 		passive:multiply yield of geography by 2
 		cost:1.5e8 money
 		req:3 grade
@@ -626,7 +626,7 @@ Upgrades
 	
 	*geographyIV
 		name:Moonwalking
-		desc:<q> "Low gravity detected, sir" -Kittens </q> If you learn how to this, you will get [geography*1+(100/math)] points per second
+		desc:<q> "Low gravity detected, sir" -Kittens </q> If you learn how to this, you will get [geography*geography*1+(100/math)] points per second
 		passive:multiply yield of geography by (geography*1+(100/math))
 		cost:1.5e10 money
 		req:4 grade
@@ -635,7 +635,7 @@ Upgrades
 		
 	*geographyV
 		name:Galaxies
-		desc:<q> "FASTER MENNER THANNER THER LIGHTER SPEEDIER!" -IDLERER </q> If you learn how to this, you will get [geography*1+(100/math)] points per second
+		desc:<q> "FASTER MENNER THANNER THER LIGHTER SPEEDIER!" -IDLERER </q> If you learn how to this, you will get [geography*geography*1+(100/math)] points per second
 		passive:multiply yield of geography by (geography*1+(100/math))
 		cost:1.5e12 money
 		req:5 grade
@@ -643,7 +643,7 @@ Upgrades
 		
 	*geographyVI
 		name:Portalling
-		desc:<q> "Do not settle near portals or your brain will become corrupted" -Warhammer 39,999 </q> If you learn how to this, you will get [geography*1+(100/math)] points per second
+		desc:<q> "Do not settle near portals or your brain will become corrupted" -Warhammer 39,999 </q> If you learn how to this, you will get [geography*geography*1+(100/math)] points per second
 		passive:multiply yield of geography by (geography*1+(100/math))
 		cost:1.5e14 money
 		req:6 grade
@@ -651,7 +651,7 @@ Upgrades
 		
 	*geographyVII
 		name:Antimatter portalling
-		desc:<q> "Created by Hevipelle." </q> If you learn how to this, you will get [geography*1+(100/math)] points per second
+		desc:<q> "Created by Hevipelle." </q> If you learn how to this, you will get [geography*geography*1+(100/math)] points per second
 		passive:multiply yield of geography by (geography*1+(100/math))
 		cost:1.5e16 money
 		req:7 grade
@@ -659,7 +659,7 @@ Upgrades
 		
 	*geographyVIII
 		name:Faster geography
-		desc:<q> Liiiight speeeeeeeeeeeeeeeeeed..................... . . . . . . . . .. . . .    .        .            . </q> If you learn how to this, you will get [geography*10] points per second
+		desc:<q> Liiiight speeeeeeeeeeeeeeeeeed..................... . . . . . . . . .. . . .    .        .            . </q> If you learn how to this, you will get [geography*geography*10] points per second
 		passive:multiply yield of geography by 10
 		cost:1.5e18 money
 		req:8 grade
@@ -667,7 +667,7 @@ Upgrades
 		
 	*geographyIX
 		name:The Last Upgrade
-		desc:<q>This upgrade will boost your geography skills. </q> If you learn how to this, you will get [geography*10] points per second
+		desc:<q>This upgrade will boost your geography skills. </q> If you learn how to this, you will get [geography*geography*10] points per second
 		passive:multiply yield of geography by 10
 		cost:1.5e20 money
 		req:9 grade
