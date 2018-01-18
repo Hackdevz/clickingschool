@@ -65,12 +65,12 @@ Layout
 
 	use default
 		
-	*store
-  		contains:buildings, upgrades, heavenlyUpg
+	
  			*buildings
    	 			contains:BulkDisplay, Buildings
     				header:Buildings
     				tooltip origin:left
+				in:store
 			
 			
   			*upgrades
@@ -78,12 +78,14 @@ Layout
     				header:Upgrades
     				costs:hide
     				names:hide
+				in:store
 			*heavenlyUpg
 				in:upgrades
 				contains:tag:heavenlyUpg
 				header:Heavenly Upgrades
 				costs:hide
 				names:hide
+				in:store
 
 
 Buildings
