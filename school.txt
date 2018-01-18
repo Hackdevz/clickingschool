@@ -64,21 +64,7 @@ Layout
 		
 
 	use default
-		
 	
- 			*buildings
-   	 			contains:BulkDisplay, Buildings
-    				header:Buildings
-    				tooltip origin:left
-				in:store
-			
-			
-  			*upgrades
-    				contains:Upgrades
-    				header:Upgrades
-    				costs:hide
-    				names:hide
-				in:store
 			*heavenlyUpg
 				in:upgrades
 				contains:tag:heavenlyUpg
