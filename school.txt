@@ -709,12 +709,74 @@ Upgrades
 		req:5 grade
 		icon:cookie[9,13]
 		
+	*scienceV
+		name:Science hacking
+		desc:<q>Loading terraformer.exe </q> If you learn how to this, you will get [science/math*100] points per second
+		passive:multiply yield of science by (science/math*100)
+		cost:7.2e14 money
+		req:6 grade
+		icon:cookie[9,14]
+		
+	*scienceVI
+		name:Physicsology (trial)
+		desc:<q>Physicsosomosolosogy. </q> If you learn how to this, you will get [science/math*100] points per second
+		passive:multiply yield of science by (science/math*100)
+		cost:7.2e16 money
+		req:7 grade
+		icon:cookie[9,15]
+		
+	*scienceVII
+		name:Astronomy (trial)
+		desc:<q>Someone in Alpha Centauri D is playing Brainstorm's Deepworld Space Miner </q> If you learn how to this, you will get [science/math*100] points per second
+		passive:multiply yield of science by (science/math*100)
+		cost:7.2e18 money
+		req:8 grade
+		icon:cookie[9,16]
+		
+	*scienceVIII
+		name:AI Engineering
+		desc:<q>"0101010111010100101010010010101010"  -My new AI</q> If you learn how to this, you will get [science/math*100] points per second
+		passive:multiply yield of science by (science/math*100)
+		cost:7.2e20 money
+		req:9 grade
+		icon:cookie[9,17]
+		
+	*scienceIX
+		name:Potatology
+		desc:<q>Have you actually played SPACEPLAN?</q> If you learn how to this, you will get [science/math*100] points per second
+		passive:multiply yield of science by (science/math*100)
+		cost:7.2e22 money
+		req:10 grade
+		icon:cookie[9,18]
 		
 		
 		
 	// MUSIC
 	
 	//http://icons.iconarchive.com/icons/itzikgur/my-seven/48/Music-Piano-icon.png
+	//http://icons.iconarchive.com/icons/sirea/instruments/128/Flute-icon.png
+	
+	
+	*musicI
+		name:Learn Piano!
+		desc:If you learn how to play this instruments, you will get [(music*100/(music))] points per second
+		passive:multiply yield of music by (music*100/(music))
+		cost:196000 money
+		req:2 grade
+		icon:http://icons.iconarchive.com/icons/itzikgur/my-seven/48/Music-Piano-icon.png
+	
+	*musicII
+		name:Learn Dammit Flute!
+		desc:If you learn how to play this instruments, you will get [(music*100/(music))] points per second.   <q>Seriously, a guy at the dev team got a F--- in flute</q>
+		passive:multiply yield of music by (music*100/(music))
+		cost:1.96e8 money
+		req:2 grade
+		icon:http://icons.iconarchive.com/icons/sirea/instruments/128/Flute-icon.png
+	
+	
+	
+	
+	
 	
 	
 	//------------//
