@@ -64,7 +64,8 @@ Resources
 		
 Layout
 	*main
-		contains:res, res2, res3
+		contains:res, res2, res3, buttons
+		
   		*res
     			contains:tag:resource
     			class:fullWidth
@@ -74,9 +75,13 @@ Layout
 		*res3
 			contains:tag:prestigeRes
 			class:fullWidth	
+		*buttons
+			contains:Buttons
+			class:fullWidth	
+		
 		
 	*store
-  		contains:buildings, upgrades, heavenlyUpg, runics
+  		contains:buildings, upgrades,
  		*buildings
    	 		contains:BulkDisplay, Buildings
     			header:Books
@@ -704,7 +709,7 @@ Upgrades
 		
 	*scienceI
 		name:Plant experiment
-		desc:<q>7 days left. </q> If you learn how to this, you will get [science/math*100] points per second
+		desc:<q>7 days left. </q> If you learn how to this, you will get [science*science/math*100] points per second
 		passive:increase yield of science by (science/math*100)
 		cost:72000 money
 		req:2 grade
@@ -713,7 +718,7 @@ Upgrades
 		
 	*scienceII
 		name:Chemistry
-		desc:<q>H2O = Water! </q> If you learn how to this, you will get [science/math*100] points per second
+		desc:<q>H2O = Water! </q> If you learn how to this, you will get [science*science/math*100] points per second
 		passive:increase yield of science by (science/math*100)
 		cost:7200000 money
 		req:3 grade
@@ -721,7 +726,7 @@ Upgrades
 		
 	*scienceIII
 		name:Basic physics
-		desc:<q>Oh, gravity! </q> If you learn how to this, you will get [science/math*100] points per second
+		desc:<q>Oh, gravity! </q> If you learn how to this, you will get [science*science/math*100] points per second
 		passive:increase yield of science by (science/math*100)
 		cost:7.2e10 money
 		req:4 grade
@@ -729,7 +734,7 @@ Upgrades
 		
 	*scienceIV
 		name:Human Body Engineering
-		desc:<q>Bacteria farming? </q> If you learn how to this, you will get [science/math*100] points per second
+		desc:<q>Bacteria farming? </q> If you learn how to this, you will get [science*science/math*100] points per second
 		passive:increase yield of science by (science/math*100)
 		cost:7.2e12 money
 		req:5 grade
@@ -737,7 +742,7 @@ Upgrades
 		
 	*scienceV
 		name:Science hacking
-		desc:<q>Loading terraformer.exe </q> If you learn how to this, you will get [science/math*100] points per second
+		desc:<q>Loading terraformer.exe </q> If you learn how to this, you will get [science*science/math*100] points per second
 		passive:increase yield of science by (science/math*100)
 		cost:7.2e14 money
 		req:6 grade
@@ -745,7 +750,7 @@ Upgrades
 		
 	*scienceVI
 		name:Physicsology (trial)
-		desc:<q>Physicsosomosolosogy. </q> If you learn how to this, you will get [science/math*100] points per second
+		desc:<q>Physicsosomosolosogy. </q> If you learn how to this, you will get [science*science/math*100] points per second
 		passive:increase yield of science by (science/math*100)
 		cost:7.2e16 money
 		req:7 grade
@@ -753,7 +758,7 @@ Upgrades
 		
 	*scienceVII
 		name:Astronomy (trial)
-		desc:<q>Someone in Alpha Centauri D is playing Brainstorm's Deepworld Space Miner </q> If you learn how to this, you will get [science/math*100] points per second
+		desc:<q>Someone in Alpha Centauri D is playing Brainstorm's Deepworld Space Miner </q> If you learn how to this, you will get [science*science/math*100] points per second
 		passive:increase yield of science by (science/math*100)
 		cost:7.2e18 money
 		req:8 grade
@@ -761,7 +766,7 @@ Upgrades
 		
 	*scienceVIII
 		name:AI Engineering
-		desc:<q>"0101010111010100101010010010101010"  -My new AI</q> If you learn how to this, you will get [science/math*100] points per second
+		desc:<q>"0101010111010100101010010010101010"  -My new AI</q> If you learn how to this, you will get [science*science/math*100] points per second
 		passive:increase yield of science by (science/math*100)
 		cost:7.2e20 money
 		req:9 grade
@@ -769,7 +774,7 @@ Upgrades
 		
 	*scienceIX
 		name:Potatology
-		desc:<q>Have you actually played SPACEPLAN?</q> If you learn how to this, you will get [science/math*100] points per second
+		desc:<q>Have you actually played SPACEPLAN?</q> If you learn how to this, you will get [science*science/math*100] points per second
 		passive:increase yield of science by (science/math*100)
 		cost:7.2e22 money
 		req:10 grade
@@ -785,15 +790,15 @@ Upgrades
 	
 	*musicI
 		name:Learn Piano!
-		desc:If you learn how to play this instruments, you will get [(music*100/(music))] points per second
-		passive:increase yield of music by (music*100/(music))
+		desc:If you learn how to play this instruments, you will get [music*music*(100/music)] points per second
+		passive:increase yield of music by (music*(100/music))
 		cost:196000 money
 		req:2 grade
 		icon:http://icons.iconarchive.com/icons/itzikgur/my-seven/48/Music-Piano-icon.png
 	
 	*musicII
 		name:Learn Dammit Flute!
-		desc:If you learn how to play this instruments, you will get [(music*100/(music))] points per second.   <q>Seriously, a guy at the dev team got a F--- in flute</q>
+		desc:If you learn how to play this instruments, you will get [music*music*(100/music)] points per second.   <q>Seriously, a guy at the dev team got a F--- in flute</q>
 		passive:increase yield of music by (music*100/(music))
 		cost:1.96e8 money
 		req:2 grade
