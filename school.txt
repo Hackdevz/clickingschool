@@ -28,23 +28,24 @@ Resources
 		desc:You can grade up with'em!
 		start with:1
 		icon:http://icons.iconarchive.com/icons/cheezen/web-2/48/star-icon.png
-		
+		tag:resource
 	
 	*money
 		name:$
 		desc:Dollars!
 		text:[this] ([money:ps]/sec)
 		icon:http://icons.iconarchive.com/icons/webiconset/payment/48/Gold-Coin-Stacks-icon.png
+		tag:resource
 	*Sec
 		hidden
 	*Min
 		text: [Min/60]:[Min%60]:[Sec%60]
 		icon:http://icons.iconarchive.com/icons/blog-perfume/blogging/48/date-icon.png
 		no tooltip
-		
+		tag:resource
 	*grade
 		text:You are in [this]th grade
-		start with:1
+		tag:resourcestart with:1
 		
 	*prestigePoints
 		name:Heavenly Points
