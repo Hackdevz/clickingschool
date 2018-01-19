@@ -81,7 +81,7 @@ Layout
 		
 		
 	*store
-  		contains:buildings, upgrades,
+  		contains:buildings, upgrades
  		*buildings
    	 		contains:BulkDisplay, Buildings
     			header:Books
