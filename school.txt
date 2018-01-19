@@ -45,7 +45,8 @@ Resources
 		tag:resource
 	*grade
 		text:You are in [this]th grade
-		tag:resourcestart with:1
+		tag:resource
+		start with:1
 		
 	*prestigePoints
 		name:Heavenly Points
@@ -421,15 +422,15 @@ Upgrades
 		icon:http://icons.iconarchive.com/icons/itzikgur/my-seven/48/Books-2-icon.png
 		
 	*englishIX
-		name:Changing number library
-		desc:[random(90000000000000000000000000000000000000000000000000000000000000,900000000000000000000000000000000000000000000000000000000000000000000000000)].. You will get [english*1e15/english] more points per second by using this!
+		name:Tech Library
+		desc:<q>010010101010010101001110101001</q> You will get [english*1e15/english] more points per second by using this!
 		passive:increase yield of english by (1e15/english)
 		cost:15000000000000000
 		req:9 grade
 		icon:http://icons.iconarchive.com/icons/itzikgur/my-seven/48/Books-2-icon.png
 	
 	*englishX
-		name:[english*english*english] Book Library
+		name:[english*english*english]-book Library
 		desc:	---- b a n g ----   - You will get [english*english*english*english] more points per second by using this!
 		passive:increase yield of english by english*english*english
 		cost:15000000000000000
@@ -441,7 +442,7 @@ Upgrades
 	// History book upgrades, boi
 	*time
 		name:TIME MACHINE
-		desc:Allows you to travel time!
+		desc:<q>This will power-up your history book</q> Allows you to travel time!
 		passive:increase yield of history by (history)
 		cost:750 money
 		req:1 grade
@@ -450,7 +451,7 @@ Upgrades
 	
 	*historyI
 		name:Stone age discovered!
-		desc:4500 BC done. Will give you [history*history] more points per second!
+		desc:<q>This will power-up your history book</q> 4500 BC done. Will give you [history*history] more points per second!
 		passive:increase yield of history by (history)
 		cost:750 money
 		req:time
@@ -458,7 +459,7 @@ Upgrades
 		
 	*historyII
 		name:Egypt discovered!
-		desc:2500 BC done. Pyramids done. Sand done. Pharaoh done. Dat thing done. Sphynx done.Will give you [history*1.5] more points per second!
+		desc:<q>This will power-up your history book</q> 2500 BC done. Pyramids done. Sand done. Pharaoh done. Dat thing done. Sphynx done.Will give you [history*1.5] more points per second!
 		passive:increase yield of history by (history*1.5)
 		cost:75000 money
 		req:2 grade
@@ -467,7 +468,7 @@ Upgrades
 		
 	*historyIII
 		name:Greek Age discovered!
-		desc:700 BC done. Temple done. Gods done. Ancients done. This is when runics are created .Will give you [history*history*2] more points per second!
+		desc:<q>This will power-up your history book</q> 700 BC done. Temple done. Gods done. Ancients done. This is when runics are created .Will give you [history*history*2] more points per second!
 		passive:increase yield of history by (history*2)
 		cost:7500000 money
 		req:3 grade
@@ -476,7 +477,7 @@ Upgrades
 		
 	*historyIV
 		name:Roman Empire discovered!
-		desc:200 BC done. Temple done. Pantheon done. Claudius done. Latin poets done .Will give you [history*history*3] more points per second!
+		desc:<q>This will power-up your history book</q> 200 BC done. Temple done. Pantheon done. Claudius done. Latin poets done .Will give you [history*history*3] more points per second!
 		passive:increase yield of history by (history*3)
 		cost:750000000 money
 		req:4 grade
@@ -486,7 +487,7 @@ Upgrades
 		
 	*historyV
 		name:Christ discovered!
-		desc:Congrats! .Will give you [history*history*3] more points per second!
+		desc:<q>This will power-up your history book</q> Congrats! .Will give you [history*history*3] more points per second!
 		passive:increase yield of history by (history*3)
 		cost:75000000000 money
 		req:5 grade
@@ -496,7 +497,7 @@ Upgrades
 		
 	*historyVI
 		name:Middle Age  discovered!
-		desc:Knights. Kings. Clash Royale. Oh no that thing no, it's horrible. Will give you [history*history*5] more points per second!
+		desc:<q>This will power-up your history book</q> Knights. Kings. Clash Royale. Oh no that thing no, it's horrible. Will give you [history*history*5] more points per second!
 		passive:increase yield of history by (history*5)
 		cost:7500000000000 money
 		req:6 grade
@@ -505,7 +506,7 @@ Upgrades
 		
 	*historyVII
 		name:Renaissance  discovered!
-		desc:Will give you [history*history*6] more points per second!
+		desc:<q>This will power-up your history book</q> Will give you [history*history*6] more points per second!
 		passive:increase yield of history by (history*5)
 		cost:750000000000000 money
 		req:7 grade
@@ -513,7 +514,7 @@ Upgrades
 		icon:cookie[8,16]
 	*historyVIII
 		name:Industrial Age  discovered!
-		desc:<q>produce more cookies, upgrade da factory! -Sample Cookie clicker player</q>  Will give you [history*history*10] more points per second!
+		desc:<q>This will power-up your history book</q> <q>produce more cookies, upgrade da factory! -Sample Cookie clicker player</q>  Will give you [history*history*10] more points per second!
 		passive:increase yield of history by (history*5)
 		cost:7.5e16 money
 		req:8 grade
@@ -522,7 +523,7 @@ Upgrades
 		
 	*historyIX
 		name:World War II discovered!
-		desc:Oh no, Hitler! Will give you [history*history*(history/10)] more points per second!
+		desc:<q>This will power-up your history book</q> Let's destroy the cookie factory! Will give you [history*history*(history/10)] more points per second!
 		passive:increase yield of history by (history*(history/10))
 		cost:666e18 money
 		req:9 grade
@@ -530,7 +531,7 @@ Upgrades
 		
 	*historyX
 		name:Future
-		desc:Will give you [history*history*(history/10)] more points per second!
+		desc:<q>This will power-up your history book</q> Will give you [history*history*(history/10)] more points per second!
 		passive:increase yield of history by (history*(history/10))
 		cost:666e20 money
 		req:10 grade
