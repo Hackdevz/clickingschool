@@ -89,21 +89,28 @@ Layout
 		*heavenlyUpg
 			in:upgrades
 			contains:tag:prestigeUpg
-			header:Prestige Upgrades
+			header:<t>Prestige Button</t>
 			costs:hide
 			names:hide
   		*upgrades
     			contains:Upgrades
-    			header:Upgrades
+    			header:<t>Power-Ups</t>
     			costs:hide
 			names:hide
 
 		*runics
 			in:upgrades
-			header:Runics
+			header:<t>Runics</t>
 			costs:hide
 			names:hide
 			contains:tag:runic
+			
+		*runics
+			in:upgrades
+			header:<t>Runics</t>
+			costs:hide
+			names:hide
+			contains:tag:runic	
 
 Buildings
 	*test
@@ -174,7 +181,22 @@ Buildings
 		cost:19600 money
 		req:2 grade
 		
-	//https://i.imgur.com/hlC4jPI.png
+		
+	*pe
+		name:P.E. Book
+		text:P.E. Book ([this] pages done)
+		desc:If you get this, you will unlock a new mini game, the Gym.. Produces <b>1100 points and 1100 $</b> per second
+		cost increase:103%
+		on tick:yield 1100 points
+		on tick:yield 1100 money
+		icon:https://i.imgur.com/0vsNChR.png		
+		cost:807000 money
+		req:2 grade
+		
+	//https://i.imgur.com/0vsNChR.png	
+		
+		
+	
 		
 Upgrades
 	*prestige
@@ -856,18 +878,27 @@ Upgrades
 
 	// Crystals
 	
+	
+	
+	// HI CURIOUS MAN THAT IS READING THE SOURCE CODE FOR GETTING < S P O I L E R S > THE NAME OF THE GODDESS IS ON A SECRET ACHIEVEMENT. I DON'T TELL YOU WHAT IS THE NAME OF THE ACHIEVEMENT.
+	
 	*crystalUnlock
 		name:Crystal Key
-		desc:Now you can open the Crystal Dpor and encounter Chiara. If you open the door you unlock <b>CRYSTALS</b>, rare boosts never heard before.<q>"It's time to open the door" -Chiara </q>.---. Icon by  artdesigner.lv
+		desc:Now you can open the Crystal Door. If you open the door you unlock <b>CRYSTALS</b>, rare boosts never heard before.<q>"It's time." -The mystery goddess </q>.---. Icon by  artdesigner.lv
 		icon:http://icons.iconarchive.com/icons/artdesigner/my-secret/48/diamond-icon.png
 		cost:1111 prestigeMoney
 		req:1111 prestigeMoney
 	*crystal1
 		name:Crystal of Pointness
-		desc:Boosts your zen potential and creates a lot of points per second <q>"Zen pointing" -Chiara</q>
+		desc:Boosts your zen potential and creates a lot of points per second <q>"Zen pointing" -The mystery goddess</q>
 		cost:111111 prestigeMoney
 		req:crystalUnlock
 		icon:http://icons.iconarchive.com/icons/artdesigner/my-secret/48/diamond-icon.png 
 	
 	//http://icons.iconarchive.com/icons/artdesigner/my-secret/48/diamond-icon.png 
 	// artdesigner.lv
+
+
+
+
+
