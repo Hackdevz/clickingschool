@@ -62,7 +62,7 @@ Resources
 		
 Layout
 	*main
-		contains:res, cbuttons, pbuttons, res2
+		contains:res, res2, res3
   		*res
     			contains:tag:resource
     			class:fullWidth
@@ -72,12 +72,9 @@ Layout
 		*res3
 			contains:tag:prestigeRes
 			class:fullWidth	
-		*stats
-			contains:tag:stat
-			ps:hide
-			header:Statistics
+		
 	*store
-  		contains:buildings, upgrades, stats
+  		contains:buildings, upgrades, heavenlyUpg, runics
  		*buildings
    	 		contains:BulkDisplay, Buildings
     			header:Books
