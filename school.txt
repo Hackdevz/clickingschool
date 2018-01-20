@@ -207,8 +207,12 @@ Upgrades
 		icon:http://icons.iconarchive.com/icons/sportsbettingspot/summer-olympics/48/football-icon.png
 		on earn:
 			if (chance(75%)) 
-					yield 150000 money
-					yield 3 medals
+				yield 50000 money
+				yield 1 medals
+				toast You won the football match!
+			else
+				toast You lost the football match! :-(
+			end		
 			lose sportsI
 			end
 		
@@ -221,9 +225,13 @@ Upgrades
 		cost:1 medals
 		on earn:
 			if (chance(70%)) 
-					yield 150000 money
-					yield 3 medals
-			lose sportsI
+				yield 150000 money
+				yield 3 medals
+				toast You won the volley match!
+			else
+				toast You lost the volley match! :-(
+			end		
+			lose sportsII
 			end
 		
 	
@@ -246,7 +254,9 @@ Upgrades
 			lose geography
 			lose science
 			lose music
+			lose pe
 			lose prestige
+			
 			
 		end
 		icon:http://icons.iconarchive.com/icons/blackblurrr/xmas-new-year-2011/48/angel-icon.png
