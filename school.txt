@@ -201,23 +201,23 @@ Buildings
 Upgrades
 	*sportsI
 		name:Football
-		desc:Play a football match. There is a <b>75% chance of winning</b>The prize is <b>50,000 $ and 1 medal</b>. It's free! Icon by sportsbettingspot.com
+		desc:Play a football match. There is a <b>75% chance of winning</b>The prize is <b>50,000 $</b>. It's free! Icon by sportsbettingspot.com
 		icon:http://icons.iconarchive.com/icons/sportsbettingspot/summer-olympics/48/football-icon.png
 		req:1 pe
 		on earn:
-			if (chance(75%)) yield 50000 money and 1 medals
+			if (chance(75%)) yield 50000 money
 			lose sportsI
 			end
-		on earn:if (chance(75%)) yield 50000 money and 1 medals
 		
 	
 	*sportsII
 		name:Volley
-		desc:Play a volleyball match. There is a <b>75% chance of winning</b>The prize is <b>50,000 $ and 3 medal</b> Icon by sportsbettingspot.com
+		desc:Play a volleyball match. There is a <b>70% chance of winning</b>The prize is <b>150,000 $</b> Icon by sportsbettingspot.com
 		icon:http://icons.iconarchive.com/icons/sportsbettingspot/summer-olympics/48/volleyball-icon.png
 		req:1 pe
+		cost:1 medals
 		on earn:
-			if (chance(75%)) yield 50000 money and 1 medals
+			if (chance(75%)) yield 50000 money
 			lose sportsI
 			end
 		
