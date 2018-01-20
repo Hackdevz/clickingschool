@@ -67,7 +67,8 @@ Resources
 		desc:Get some by winning Sports.
 		icon:http://icons.iconarchive.com/icons/umar123/build/48/0041-Medal-Gold-icon.png
 		start with:100
-		req:1 pe
+		tag:minigameRes
+		
 		
 		
 Layout
@@ -94,10 +95,16 @@ Layout
    	 		contains:BulkDisplay, Buildings
     			header:Books
     			tooltip origin:left
+		*sportMinigs
+			contains:tag:Sport
+			in:upgrades
+			costs:hide
+			names:hide
+		
 		*heavenlyUpg
 			in:upgrades
 			contains:tag:prestigeUpg
-			header:<t>Prestige Button</t>
+			header:<t>Prestige Upgrades</t>
 			costs:hide
 			names:hide
   		*upgrades
@@ -105,7 +112,7 @@ Layout
     			header:<t>Power-Ups</t>
     			costs:hide
 			names:hide
-
+			
 		*runics
 			in:upgrades
 			header:<t>Runics</t>
@@ -205,6 +212,7 @@ Upgrades
 		name:Football
 		desc:Play a football match. There is a <b>75% chance of winning</b>The prize is <b>50,000 $</b>. It's free! Icon by sportsbettingspot.com
 		icon:http://icons.iconarchive.com/icons/sportsbettingspot/summer-olympics/48/football-icon.png
+		tag:Sport
 		on earn:
 			if (chance(75%)) 
 				yield 50000 money
@@ -219,6 +227,7 @@ Upgrades
 		
 	*sportsII	
 		name:Volley
+		tag:Sport
 		desc:Play a volleyball match. There is a <b>70% chance of winning</b>The prize is <b>150,000 $ and 3 medals.</b> Icon by sportsbettingspot.com
 		icon:http://icons.iconarchive.com/icons/sportsbettingspot/summer-olympics/48/volleyball-icon.png
 		req:1 pe
@@ -232,6 +241,24 @@ Upgrades
 				toast You lost the volley match! :-(
 			end		
 			lose sportsII
+			end
+			
+	*sportsIII	
+		name:Basketball
+		tag:Sport
+		desc:Play a basketball match. There is a <b>65% chance of winning</b>. The prize is <b>750,000 $ and 8 medals.</b> Icon by sportsbettingspot.com
+		icon:http://icons.iconarchive.com/icons/sportsbettingspot/summer-olympics/48/basketball-icon.png
+		req:1 pe
+		cost:5 medals
+		on earn:
+			if (chance(65%)) 
+				yield 150000 money
+				yield 3 medals
+				toast You won the basketball match!
+			else
+				toast You lost the basketball match! :-(
+			end		
+			lose sportsIII
 			end
 		
 	
