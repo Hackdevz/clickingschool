@@ -206,11 +206,32 @@ Upgrades
 		desc:Play a football match. There is a <b>75% chance of winning</b>The prize is <b>50,000 $</b>. It's free! Icon by sportsbettingspot.com
 		icon:http://icons.iconarchive.com/icons/sportsbettingspot/summer-olympics/48/football-icon.png
 		req:1 pe
-		on earn:
-			if (chance(75%)) yield 50000 money and 1 medals
-			lose sportsI
-			end
+		     on click:if (mana>=40) yield -40 mana
+        on click:
+            if (mana>=40)
+                if (chance(85%))
+                    yield 1 goldenBean
+                    toast You summoned a golden bean!
+                else
+                    toast Failed to summon a golden bean.
+                end
+            end
+        end
+        tag:mini
 		
+       
+        on click:if (mana>=40) yield -40 mana
+        on click:
+            if (mana>=40)
+                if (chance(85%))
+                    yield 1 goldenBean
+                    toast You summoned a golden bean!
+                else
+                    toast Failed to summon a golden bean.
+                end
+            end
+        end
+        tag:spell
 	
 	*sportsII
 		name:Volley
