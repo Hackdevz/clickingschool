@@ -66,6 +66,7 @@ Resources
 		name:Medals
 		desc:Get some by winning Sports.
 		icon:http://icons.iconarchive.com/icons/umar123/build/48/0041-Medal-Gold-icon.png
+		req:1 pe
 		
 Layout
 	*main
@@ -191,8 +192,7 @@ Buildings
 		icon:https://i.imgur.com/0vsNChR.png		
 		cost:807000 money
 		req:2 grade
-		show medals
-		
+			
 	//https://i.imgur.com/0vsNChR.png	
 		
 		
