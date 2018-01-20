@@ -207,7 +207,7 @@ Upgrades
 		on earn:
 			lose sportsI
 			end
-		if (chance(75%)) yield 50000 money and 1 medals
+		on earn:if (chance(75%)) yield 50000 money and 1 medals
 		
 	
 	*sportsII
@@ -218,7 +218,7 @@ Upgrades
 		on earn:
 			lose sportsI
 			end
-		if (chance(75%)) yield 50000 money and 1 medals
+		on earn:if (chance(75%)) yield 50000 money and 1 medals
 	
 	
 	
