@@ -320,13 +320,49 @@ Upgrades
 		name:Beach volley
 		tag:Sport
 		desc:Play a beach volley match. There is a <b>40% chance of winning</b>. The prize is <b>10 billion $ and 400 medals.</b> Icon by sportsbettingspot.com
-		icon:http://icons.iconarchive.com/icons/sportsbettingspot/summer-olympics/48/tennis-icon.png
+		icon:http://icons.iconarchive.com/icons/sportsbettingspot/summer-olympics/48/beach-volley-icon.png
 		req:1 pe
 		cost:400 medals
 		on earn:
 			if (chance(40%)) 
 				yield 1e10 money
 				yield 400 medals
+				toast You won the beach volley match!
+			else
+				toast You lost the beach volley match! :-(
+			end		
+			lose sportsVII
+			end
+			
+	*sportsVIII	
+		name:Swimming
+		tag:Sport
+		desc:Play a swimming race. There is a <b>35% chance of winning</b>. The prize is <b>100 billion $ and 2000 medals.</b> Icon by sportsbettingspot.com
+		icon:http://icons.iconarchive.com/icons/sportsbettingspot/summer-olympics/48/swimming-icon.png
+		req:1 pe
+		cost:1500 medals
+		on earn:
+			if (chance(40%)) 
+				yield 1e11 money
+				yield 2000 medals
+				toast You won the beach volley match!
+			else
+				toast You lost the beach volley match! :-(
+			end		
+			lose sportsVII
+			end
+			
+	*sportsIX	
+		name:Archery
+		tag:Sport
+		desc:Play a  archery match. There is a <b>35% chance of winning</b>. The prize is <b>100 billion $ and 2000 medals.</b> Icon by sportsbettingspot.com
+		icon:http://icons.iconarchive.com/icons/sportsbettingspot/summer-olympics/48/archery-icon.png
+		req:1 pe
+		cost:1500 medals
+		on earn:
+			if (chance(40%)) 
+				yield 1e11 money
+				yield 2000 medals
 				toast You won the beach volley match!
 			else
 				toast You lost the beach volley match! :-(
