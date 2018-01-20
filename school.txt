@@ -66,7 +66,7 @@ Resources
 		name:Medals
 		desc:Get some by winning Sports.
 		icon:http://icons.iconarchive.com/icons/umar123/build/48/0041-Medal-Gold-icon.png
-		req:1 pe
+		
 		
 Layout
 	*main
@@ -205,7 +205,7 @@ Upgrades
 		icon:http://icons.iconarchive.com/icons/sportsbettingspot/summer-olympics/48/football-icon.png
 		req:1 pe
 		on earn:
-			if (chance(75%)) yield 50000 money
+			if (chance(75%)) yield 50000 money and 1 medals
 			lose sportsI
 			end
 		
@@ -217,7 +217,7 @@ Upgrades
 		req:1 pe
 		cost:1 medals
 		on earn:
-			if (chance(75%)) yield 50000 money
+			if (chance(75%)) yield 50000 money and 3 medals
 			lose sportsI
 			end
 		
