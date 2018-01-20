@@ -53,14 +53,14 @@ Resources
 		desc:You can grade up in your heavenly school with them!
 		hidden when 0
 		icon:http://icons.iconarchive.com/icons/blackblurrr/xmas-new-year-2011/48/angel-icon.png
-		tag:prestigeRes
+		tag:resource
 		
 	*prestigeMoney
 		name:Scrolls of Heaven
 		desc:Rare, magic scrolls. You can use them on heavenly upgrades and runic equipment. Icon by http://awicons.com
 		hidden when 0
 		icon:http://icons.iconarchive.com/icons/awicons/vista-artistic/48/2-Hot-Paper-Box-icon.png
-		tag:prestigeRes
+		tag:resource
 		
 	*medals
 		name:Medals
@@ -97,6 +97,7 @@ Layout
     			tooltip origin:left
 		*sportMinigs
 			contains:tag:Sport
+			header:Sports
 			in:upgrades
 			costs:hide
 			names:hide
@@ -210,13 +211,12 @@ Buildings
 Upgrades
 	*sportsI
 		name:Football
-		desc:Play a football match. There is a <b>75% chance of winning</b>The prize is <b>50,000 $</b>. It's free! Icon by sportsbettingspot.com
+		desc:Play a football match. There is a <b>75% chance of winning</b> The prize is <b>50,000 $</b>. It's free! Icon by sportsbettingspot.com
 		icon:http://icons.iconarchive.com/icons/sportsbettingspot/summer-olympics/48/football-icon.png
 		tag:Sport
 		on earn:
 			if (chance(75%)) 
 				yield 50000 money
-				yield 1 medals
 				toast You won the football match!
 			else
 				toast You lost the football match! :-(
@@ -228,7 +228,7 @@ Upgrades
 	*sportsII	
 		name:Volley
 		tag:Sport
-		desc:Play a volleyball match. There is a <b>70% chance of winning</b>The prize is <b>150,000 $ and 3 medals.</b> Icon by sportsbettingspot.com
+		desc:Play a volleyball match. There is a <b>70% chance of winning</b> The prize is <b>150,000 $ and 2 medals.</b> Icon by sportsbettingspot.com
 		icon:http://icons.iconarchive.com/icons/sportsbettingspot/summer-olympics/48/volleyball-icon.png
 		req:1 pe
 		cost:1 medals
@@ -253,16 +253,86 @@ Upgrades
 		on earn:
 			if (chance(65%)) 
 				yield 150000 money
-				yield 3 medals
+				yield 8 medals
 				toast You won the basketball match!
 			else
 				toast You lost the basketball match! :-(
 			end		
 			lose sportsIII
 			end
+			
+			
+	*sportsIV	
+		name:Athletics
+		tag:Sport
+		desc:Play an athletics match against other people. There is a <b>60% chance of winning</b>. The prize is <b>2 million $ and 15 medals.</b> Icon by sportsbettingspot.com
+		icon:http://icons.iconarchive.com/icons/sportsbettingspot/summer-olympics/48/athletics-icon.png
+		req:1 pe
+		cost:20 medals
+		on earn:
+			if (chance(65%)) 
+				yield 2e6 money
+				yield 15 medals
+				toast You won the athletics match!
+			else
+				toast You lost the athletics match! :-(
+			end		
+			lose sportsIV
+			end
 		
-	
-	
+	*sportsV	
+		name:Tennis
+		tag:Sport
+		desc:Play a tennis match. There is a <b>55% chance of winning</b>. The prize is <b>15 million $ and 45 medals.</b> Icon by sportsbettingspot.com
+		icon:http://icons.iconarchive.com/icons/sportsbettingspot/summer-olympics/48/tennis-icon.png
+		req:1 pe
+		cost:30 medals
+		on earn:
+			if (chance(55%)) 
+				yield 1.5e7 money
+				yield 45 medals
+				toast You won the tennis match!
+			else
+				toast You lost the tennis match! :-(
+			end		
+			lose sportsV
+			end
+			
+	*sportsVI	
+		name:Cycling
+		tag:Sport
+		desc:Play a cycling match. There is a <b>50% chance of winning</b>. The prize is <b>100 million $ and 100 medals.</b> Icon by sportsbettingspot.com
+		icon:http://icons.iconarchive.com/icons/sportsbettingspot/summer-olympics/48/cycling-mountain-biking-icon.png
+		req:1 pe
+		cost:90 medals
+		on earn:
+			if (chance(50%)) 
+				yield 1e8 money
+				yield 100 medals
+				toast You won the cycling match!
+			else
+				toast You lost the cycling match! :-(
+			end		
+			lose sportsVI
+			end
+			
+	*sportsVII	
+		name:Beach volley
+		tag:Sport
+		desc:Play a beach volley match. There is a <b>40% chance of winning</b>. The prize is <b>10 billion $ and 400 medals.</b> Icon by sportsbettingspot.com
+		icon:http://icons.iconarchive.com/icons/sportsbettingspot/summer-olympics/48/tennis-icon.png
+		req:1 pe
+		cost:400 medals
+		on earn:
+			if (chance(40%)) 
+				yield 1e10 money
+				yield 400 medals
+				toast You won the beach volley match!
+			else
+				toast You lost the beach volley match! :-(
+			end		
+			lose sportsVII
+			end
 	
 
 	//http://icons.iconarchive.com/icons/sportsbettingspot/summer-olympics/48/football-icon.png
