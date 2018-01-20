@@ -66,6 +66,8 @@ Resources
 		name:Medals
 		desc:Get some by winning Sports.
 		icon:http://icons.iconarchive.com/icons/umar123/build/48/0041-Medal-Gold-icon.png
+		start with:100
+		req:1 pe
 		
 		
 Layout
